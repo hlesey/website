@@ -5,15 +5,15 @@ import Heading from '@theme/Heading';
 export default function About(): ReactNode {
   return (
     <Layout
-      title="About KubeTrain Academy"
+      title="About Q.E.D. Academy"
       description="Learn about our mission to provide world-class Kubernetes training and certification preparation.">
       <div className="container margin-vert--lg">
         <div className="row">
           <div className="col col--8 col--offset-2">
-            <Heading as="h1">About KubeTrain Academy</Heading>
+            <Heading as="h1">About Q.E.D. Academy</Heading>
             
             <p className="margin-vert--lg">
-              KubeTrain Academy is a leading provider of professional Kubernetes training and certification preparation. 
+              Q.E.D. Academy is a leading provider of professional training and certification preparation for Cloud Native technologies. 
               We specialize in hands-on, practical education that prepares students for real-world container orchestration challenges.
             </p>
 
@@ -23,7 +23,7 @@ export default function About(): ReactNode {
               Kubernetes and advance their careers in cloud-native technologies.
             </p>
 
-            <Heading as="h2">Why Choose KubeTrain Academy?</Heading>
+            <Heading as="h2">Why Choose Q.E.D. Academy?</Heading>
             <ul className="margin-vert--md">
               <li><strong>Industry Expertise:</strong> Our instructors are certified Kubernetes professionals with extensive production experience</li>
               <li><strong>Practical Focus:</strong> All courses include hands-on labs and real-world scenarios</li>

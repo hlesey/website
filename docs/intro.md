@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Course Portfolio
 
-Welcome to **KubeTrain Academy's** comprehensive Kubernetes training program.
+Welcome to our comprehensive Kubernetes training program.
 
 ## Our Training Courses
 
@@ -15,6 +15,7 @@ Master Kubernetes with our expert-led, hands-on training courses designed for pr
 Perfect for getting started with Kubernetes container orchestration.
 
 **What you'll learn:**
+
 - Kubernetes architecture and core concepts
 - Pod, Service, and Deployment management
 - Basic networking and storage
@@ -30,16 +31,16 @@ Perfect for getting started with Kubernetes container orchestration.
 Advanced course for experienced practitioners ready for production-grade implementations.
 
 **What you'll master:**
-- High availability cluster architecture
+
 - Advanced security and RBAC
-- Service mesh and complex networking
+- Complex networking
 - Production monitoring and observability
 - Multi-cluster management
-- Performance optimization
+- Advanced troubleshooting
 
 **Duration:** 3 days (24 hours)  
-**Prerequisites:** Kubernetes Fundamentals + 6+ months experience  
-**Ideal for:** Senior Engineers, Platform Architects, SREs
+**Prerequisites:** Kubernetes Fundamentals + 3+ months experience  
+**Ideal for:** Senior Engineers, Architects
 
 ## Learning Path
 
@@ -62,30 +63,27 @@ Our courses prepare you for industry-recognized certifications:
 ## Training Formats
 
 ### Public Courses
+
 - Scheduled group sessions
+- In-person or live online
 - Interactive learning environment
 - Networking with peers
 - Cost-effective option
 
 ### Private/Corporate Training
+
 - Customized curriculum
 - On-site or remote delivery
 - Flexible scheduling
 - Team-focused exercises
 
-### Virtual Instructor-Led
-- Live online instruction
-- Full hands-on labs
-- Real-time Q&A
-- Same quality as in-person
 
-## Why Choose KubeTrain Academy?
+## Why Choose our Courses?
 
 ✅ **Expert Instructors** - Certified professionals with production experience  
-✅ **Hands-On Focus** - 70% practical labs and exercises  
-✅ **Small Classes** - Maximum 12 students for personalized attention  
+✅ **Hands-On Focus** - Part lecture, part discussion, exercises and heavy hands-on practice.  
 ✅ **Real-World Scenarios** - Based on actual production challenges  
-✅ **Ongoing Support** - Post-course assistance and resources  
+✅ **Ongoing Support** - Post-course assistance on Kubernetes resources  
 ✅ **Industry Recognition** - Trusted by leading companies worldwide
 
 ## Get Started
@@ -100,8 +98,8 @@ Ready to advance your Kubernetes skills?
 
 ## Contact Information
 
-**Training Inquiries:** [training@kubetrain.academy](mailto:training@kubetrain.academy)  
-**Enterprise Solutions:** [enterprise@kubetrain.academy](mailto:enterprise@kubetrain.academy)  
-**Phone:** +1 (555) 123-KUBE
+**Training Inquiries:** [contact@qedzone.ro](mailto:contact@qedzone.ro)  
+**Enterprise Solutions:** [contact@qedzone.ro](mailto:contact@qedzone.ro)  
+**Phone:** +40 725 347 822
 
-[Contact Us](../contact) | [About KubeTrain Academy](../about)
+[Contact Us](../contact) | [About Us](../about)

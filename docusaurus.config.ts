@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'KubeTrain Academy',
+  title: 'Q.E.D. Academy',
   tagline: 'Professional Kubernetes Training & Certification',
   favicon: 'img/favicon.ico',
 
@@ -67,10 +67,10 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'KubeTrain Academy',
+      title: 'Q.E.D. Academy',
       logo: {
-        alt: 'KubeTrain Academy Logo',
-        src: 'img/logo.svg',
+        alt: 'Q.E.D. Academy Logo',
+        src: 'img/qed-logo.png',
       },
       items: [
         {
@@ -79,7 +79,7 @@ const config: Config = {
           position: 'left',
           label: 'Courses',
         },
-        {to: '/blog', label: 'News', position: 'left'},
+        {to: '/news', label: 'News', position: 'left'},
         {to: '/about', label: 'About', position: 'left'},
         {to: '/contact', label: 'Contact', position: 'right'},
       ],
@@ -130,12 +130,12 @@ const config: Config = {
             },
             {
               label: 'News',
-              to: '/blog',
+              to: '/news',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} KubeTrain Academy. Professional Kubernetes Training.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Q.E.D. Academy.`,
     },
     prism: {
       theme: prismThemes.github,

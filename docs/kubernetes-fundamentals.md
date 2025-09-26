@@ -30,14 +30,6 @@ By the end of this course, you will be able to:
 - **Format:** Part lecture, part discussion, exercises and heavy hands-on practice.
 - **Materials:** Digital course materials and lab guides
 
-
-## Certification Preparation
-
-This course covers the foundational concepts needed for:
-
-- **CKA (Certified Kubernetes Administrator)** - Core administration tasks
-- **CKAD (Certified Kubernetes Application Developer)** - Application deployment basics
-
 ## Difficulty
 
 Beginner to Intermediate
@@ -84,14 +76,16 @@ Lab: Setup your Docker host machine
 - Container operations
 - Docker networking
 - Docker volumes
+
 Lab: Configure, build and run applications using Docker
 
 #### Kubernetes architecture
 
 - Kubernetes adoption
 - Kubernetes features
-- Self-Healing 
-Lab: Setup your K8s lab cluster 
+- Self-Healing
+
+Lab: Setup your K8s lab cluster
 
 ### Day 2
 
@@ -110,6 +104,7 @@ Lab: Deploy, monitor and configure resource management for Pods
 - Service types
 - Cluster internal DNS
 - Ingress controllers
+
 Lab: Exposing your application inside and outside of a K8s cluster
 
 #### ReplicaSet and Deployment
@@ -119,6 +114,7 @@ Lab: Exposing your application inside and outside of a K8s cluster
 - Taints and Tolerations
 - Deployment strategies
 - Autoscaling applications deployed on K8s
+
 Lab: Deploy a real application on a K8s cluster
 
 #### Kubernetes Configuration
@@ -127,6 +123,7 @@ Lab: Deploy a real application on a K8s cluster
 - Secrets
 - Secrets vs ConfigMaps
 - Encrypting secrets in etcd
+
 Lab: Use secrets and configmaps to decouple configuration for an existing application deployed on a K8s cluster
 
 ## Next Steps

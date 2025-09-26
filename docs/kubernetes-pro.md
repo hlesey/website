@@ -2,119 +2,33 @@
 
 ## Course Overview
 
-Take your Kubernetes expertise to the next level with this intensive 3-day advanced course. Designed for experienced practitioners ready to master complex Kubernetes deployments, security, and operations in production environments.
+Inspired by [cncf](https://www.cncf.io/certification/cka/) and [kubernetes.io](https://kubernetes.io/docs/home/), the Kubernetes Pro course is designed for developers and system administrators who want to get more advanced experience with Kubernetes. It is focused on Cloud Native principles and microservices architectures.
 
-## Prerequisites
-
-This is an advanced course. Students should have:
-
-- Completed [Kubernetes Fundamentals](./kubernetes-fundamentals.md) or equivalent experience
-- 6+ months hands-on Kubernetes experience
-- Understanding of networking, storage, and security concepts
-- Experience with Linux administration
-- Familiarity with CI/CD concepts
+This course aligns with [Certified Kubernetes Administrator](https://www.cncf.io/certification/expert/cka/) and [Certified Kubernetes Application Developer](https://www.cncf.io/certification/ckad/) exams from the [Cloud Native Computing Foundation](https://www.cncf.io/). 
+Once you master Kubernetes, you can manage other container-orchestration solutions such as: RedHat Openshift, Rancher, Amazon EKS, Azure AKS, Google GKE, IBM Cloud Kubernetes Service.
 
 ## What You'll Learn
 
 By the end of this course, you will master:
 
-- Advanced cluster architecture and high availability
-- Production-grade security implementation
-- Complex networking scenarios and service mesh
-- Advanced storage and data management
-- Monitoring, logging, and observability at scale
-- Disaster recovery and backup strategies
-- Multi-cluster and multi-cloud deployments
-- Advanced troubleshooting and performance optimization
-
-## Course Content
-
-### Day 1: Advanced Architecture & Security
-
-#### Module 1: Production Cluster Design
-- High availability cluster architecture
-- Master node redundancy and etcd clustering
-- Node management and autoscaling
-- Resource planning and capacity management
-- Multi-zone and multi-region deployments
-
-#### Module 2: Advanced Security
-- Role-Based Access Control (RBAC) design
-- Pod Security Standards and policies
-- Network policies and microsegmentation
-- Secrets management and encryption at rest
-- Image security and admission controllers
-- Security scanning and compliance
-
-#### Module 3: Advanced Networking
-- CNI deep dive and comparison
-- Service mesh implementation (Istio/Linkerd)
-- Advanced ingress strategies
-- Network troubleshooting tools
-- Cross-cluster networking
-
-### Day 2: Storage, Data & Operations
-
-#### Module 4: Advanced Storage Management
-- Storage performance optimization
-- Backup and disaster recovery strategies
-- Database operators and stateful workloads
-- Volume snapshots and cloning
-- Multi-zone storage replication
-
-#### Module 5: Observability & Monitoring
-- Prometheus and Grafana deployment
-- Advanced logging with Elasticsearch/Loki
-- Distributed tracing implementation
-- Custom metrics and alerting
-- SLI/SLO implementation
-
-#### Module 6: GitOps and Advanced CI/CD
-- GitOps principles and implementation
-- ArgoCD/Flux deployment strategies
-- Advanced Helm chart development
-- Multi-environment promotion strategies
-- Canary and blue-green deployments
-
-### Day 3: Operations & Troubleshooting
-
-#### Module 7: Performance Optimization
-- Resource optimization strategies
-- Cluster autoscaling fine-tuning
-- Application performance monitoring
-- Cost optimization techniques
-- Cluster rightsizing methodologies
-
-#### Module 8: Advanced Troubleshooting
-- Deep debugging techniques
-- Performance profiling tools
-- Network troubleshooting scenarios
-- Cluster recovery procedures
-- Post-mortem analysis methods
-
-#### Module 9: Multi-Cluster Management
-- Cluster federation strategies
-- Cross-cluster service discovery
-- Multi-cluster networking
-- Centralized policy management
-- Disaster recovery across clusters
-
-## Hands-On Labs
-
-Intensive real-world labs include:
-
-- **Lab 1:** Building a production-ready HA cluster
-- **Lab 2:** Implementing comprehensive RBAC policies
-- **Lab 3:** Deploying and configuring a service mesh
-- **Lab 4:** Setting up complete observability stack
-- **Lab 5:** Implementing GitOps workflows
-- **Lab 6:** Multi-cluster application deployment
-- **Lab 7:** Disaster recovery simulation
-- **Lab 8:** Performance optimization challenge
+- Decouple application configuration
+- Add state persistence to your application
+- Configure cluster authorization and access control
+- Autoscale your application based on compute metrics
+- Isolate workloads with Network Policies
+- Advanced continuous deployment strategies used in Kubernetes
+- Zero-downtime cluster upgrades
+- Multi-tenant cluster design and implementation
+- Bootstrap a Kubernetes cluster
+- Use Observability pillars to improve cluster and application reliability
+- Complex networking troubleshooting
+- Troubleshoot a real K8s application in a 2h “Capture the Flag” session
+- And much more!
 
 ## Who Should Attend
 
-- **Senior DevOps Engineers** managing production Kubernetes
+- **Developers** looking to containerize and orchestrate applications
+- **DevOps Engineers** managing production Kubernetes
 - **Platform Engineers** building Kubernetes platforms
 - **Site Reliability Engineers** ensuring service reliability
 - **Cloud Architects** designing enterprise solutions
@@ -124,61 +38,166 @@ Intensive real-world labs include:
 ## Course Format
 
 - **Duration:** 3 days (24 hours)
-- **Format:** Advanced instructor-led with complex labs
-- **Class Size:** Maximum 8 participants
-- **Materials:** Comprehensive digital resources
-- **Certificate:** Advanced course completion certificate
+- **Format:** Part lecture, part discussion, exercises and heavy hands-on practice.
+- **Materials:** Digital course materials and lab guides
 
 ## Certification Preparation
 
-This course provides advanced preparation for:
+This course covers the foundational concepts needed for:
 
-- **CKA (Certified Kubernetes Administrator)** - Advanced scenarios
-- **CKS (Certified Kubernetes Security Specialist)** - Security focus
-- **Platform-specific certifications** (EKS, GKE, AKS)
+- **CKA (Certified Kubernetes Administrator)** - Core administration tasks
+- **CKAD (Certified Kubernetes Application Developer)** - Application deployment basics
 
-## Real-World Scenarios
+## Difficulty
 
-Course includes actual production scenarios:
+Intermediate to advanced
 
-- Multi-tenant cluster design and implementation
-- Zero-downtime cluster upgrades
-- Security incident response
-- Performance bottleneck resolution
-- Complex networking troubleshooting
-- Disaster recovery execution
+## Course Prerequisites
 
-## What's Included
+To get the most out of this course, you should have:
 
-- 3 days of expert advanced instruction
-- Complex multi-cluster lab environments
-- Comprehensive digital course materials
-- Advanced lab guides and real-world scenarios
-- 60 days of lab environment access
-- Advanced course completion certificate
-- Priority post-course support
-- Access to exclusive advanced resources
+- Previous experience with linux containers (Docker)
+- Basic Linux command line skills
+- File editing skills (yaml, json)
+- Kubernetes Fundamentals
 
-## Expert Instructors
+## Course Content
 
-Learn from certified professionals with:
+### Day 1
 
-- CKA, CKAD, and CKS certifications
-- 5+ years production Kubernetes experience
-- Experience managing clusters at scale (1000+ nodes)
-- Real-world multi-cloud deployments
-- Open source contributions to cloud-native projects
+- Course introduction
+- Course goals
+- Recommended lectures 
+- Kubernetes certifications
+- Your practice environment
 
-## Prerequisites Validation
 
-Before enrolling, you should be comfortable with:
+#### Persistance in Kubernetes
 
-- Deploying applications using Deployments and Services
-- Managing ConfigMaps and Secrets
-- Basic kubectl troubleshooting
-- Understanding of container networking
-- Linux command-line proficiency
-- YAML/JSON configuration management
+- Types of Volumes
+- Persistent Volume
+- Persistent Volume Claim
+
+Lab: Add persistance to an existing application deployed on a K8s cluster
+
+
+#### Advanced Kubernetes Networking
+
+- Networking implementation on Kubernetes
+- Container Network Interface (CNI)
+- CNI Plugins
+- TCP/IP model overview
+- Isolate workloads with Network Policies
+
+Lab: Secure an application using network policies
+
+
+#### Package management with Helm
+
+- Explain Helm Charts
+- Working with Chart Repositories
+- Helm Releases
+
+Lab: Deploy an application on a K8s cluster using Helm
+
+
+#### DaemonSets
+
+- DemonSet overview
+- DemonSet vs Deployment
+- Manage DaemonSet
+
+Lab:  Working with DaemonSets
+
+
+#### StatefulSets
+
+- Stateful applications overview
+- Stateful vs Stateless applications
+- StatefulSets Components
+
+Lab: Deploy a stateful application on a K8s cluster
+
+
+### Day 2
+
+- Jobs and CronJobs
+- Parallel and Non-parallel Jobs
+- Job Termination and Cleanup
+- Working with CronJobs
+
+Lab: Deploy short-lived applications using Jobs and CronJobs on a K8s cluster
+
+
+#### Mastering kubectl
+- Configuration Best Practices
+- Understanding Kubeconfig
+- Kubectl cheatsheet
+- Kubectl explain
+
+Lab: Boost your kubectl productivity
+
+
+#### Role-Based Access Control
+
+- Authorization with RBAC
+- Roles and ClusteRoles
+- RoleBindings and ClusterRoleBindigs
+- Default ClusterRoles
+- Working with user permissions at the namespace level
+
+Lab: Create a user with limited access on a K8s namespace
+
+#### Cluster Administration and Multitenancy
+
+- Type of workloads
+- Managing compute allocation and quotas
+- Defining policies for resource usage and workload isolation
+
+Lab: Isolate a namespace on a K8s cluster
+
+
+#### AI on Kubertnetes: Running ML Model Inference on Kubernetes
+
+- Understanding ML Inference
+- Serving Models on Kubernetes
+- Packaging & Deploying a Model
+
+Lab: Deploy a Model as a REST API
+
+
+### Day 3
+
+#### Obervability
+
+- Monitoring Kubernetes components with Prometheus
+- Setup prometheus on K8s
+- Monitoring an application deployed on K8s cluster
+- The Four Golden Signals from Google SRE book
+
+Lab: Use Prometheus to monitor K8s components
+
+
+#### Deployment strategies on Kubernetes
+
+- Explain Recreate strategy
+- Explain RollingUpdate  strategy
+Explain Blue/Green strategy
+- Explain Canary strategy
+- Explain A/B testing strategy
+- Explain Shadow strategy
+
+Lab: Deploy an application on K8s using Blue/Green and Canary strategies
+
+
+#### Troubleshooting and CTF
+
+- Loggging
+- Strategies to debug applications and K8s components
+- Trooublshooting an application deployed on a K8s cluster
+
+Lab: Solve real K8s application challanges in a 1.5h “Capture the Flag” session
+
 
 ## Next Steps
 
@@ -188,16 +207,5 @@ After completing this course:
 - Pursue advanced certifications (CKS, cloud-specific)
 - Join our advanced practitioners community
 - Explore custom enterprise training options
-
-## Investment
-
-This advanced course represents a significant investment in your expertise. Contact us for current pricing and enterprise packages:
-
-- **Email:** [enterprise@kubetrain.academy](mailto:enterprise@kubetrain.academy)
-- **Phone:** +1 (555) 123-CORP
-
-## Upcoming Sessions
-
-Due to the intensive nature and limited class size, sessions fill quickly. Reserve your spot early.
 
 [Contact Us](../contact) | [Prerequisites Course](./kubernetes-fundamentals.md) | [View All Courses](./intro.md)

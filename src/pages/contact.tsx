@@ -5,8 +5,8 @@ import Heading from '@theme/Heading';
 export default function Contact(): ReactNode {
   return (
     <Layout
-      title="Contact KubeTrain Academy"
-      description="Get in touch with KubeTrain Academy for training inquiries, course schedules, and enrollment information.">
+      title="Contact Q.E.D. Academy"
+      description="Get in touch with Q.E.D. Academy for training inquiries, course schedules, and enrollment information.">
       <div className="container margin-vert--lg">
         <div className="row">
           <div className="col col--8 col--offset-2">
@@ -21,8 +21,8 @@ export default function Contact(): ReactNode {
               <div className="col col--6">
                 <Heading as="h2">Training Inquiries</Heading>
                 <p>
-                  <strong>Email:</strong> <a href="mailto:training@kubetrain.academy">training@kubetrain.academy</a><br/>
-                  <strong>Phone:</strong> +1 (555) 123-KUBE
+                  <strong>Email:</strong> <a href="mailto:contact@qedzone.ro">contact@qedzone.ro</a><br/>
+                  <strong>Phone:</strong> +40 725 347 822
                 </p>
 
                 <Heading as="h2">Course Schedules</Heading>
@@ -39,8 +39,7 @@ export default function Contact(): ReactNode {
               <div className="col col--6">
                 <Heading as="h2">Enterprise Training</Heading>
                 <p>
-                  <strong>Email:</strong> <a href="mailto:enterprise@kubetrain.academy">enterprise@kubetrain.academy</a><br/>
-                  <strong>Phone:</strong> +1 (555) 123-CORP
+                  <strong>Email:</strong> <a href="mailto:enterprise@qedzone.ro">enterprise@qedzone.ro</a><br/>
                 </p>
 
                 <Heading as="h2">Office Hours</Heading>
@@ -74,7 +73,7 @@ export default function Contact(): ReactNode {
                 <div className="card__body">
                   <p>
                     For immediate assistance, please email us at{' '}
-                    <strong><a href="mailto:info@kubetrain.academy">info@kubetrain.academy</a></strong> with:
+                    <strong><a href="mailto:contact@qedzone.ro">contact@qedzone.ro</a></strong> with:
                   </p>
                   <ul>
                     <li>Your name and organization</li>

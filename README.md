@@ -1,10 +1,10 @@
-# KubeTrain Academy Website
+# Q.E.D. Academy Website
 
 Professional Kubernetes training company website built with [Docusaurus](https://docusaurus.io/).
 
 ## About
 
-KubeTrain Academy provides expert-led Kubernetes training courses:
+Q.E.D. Academy provides expert-led Kubernetes training courses:
 
 - **Kubernetes Fundamentals (2 days)** - Perfect for getting started with container orchestration
 - **Kubernetes Pro (3 days)** - Advanced course for production-ready implementations
