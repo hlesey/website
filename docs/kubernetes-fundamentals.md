@@ -1,4 +1,4 @@
-# Kubernetes Fundamentals - 2 Day Course
+# Kubernetes Fundamentals
 
 ## Course Overview
 
@@ -130,6 +130,6 @@ Lab: Use secrets and configmaps to decouple configuration for an existing applic
 
 After completing this course, consider:
 
-- [Kubernetes Pro - 3 Day Course](./kubernetes-pro.md) for advanced topics
+- [Kubernetes Pro](./kubernetes-pro.md) for advanced topics
 - CKA certification exam preparation
 - Specialized workshops on specific Kubernetes topics

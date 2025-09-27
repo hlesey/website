@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Q.E.D. Academy',
   tagline: 'Professional Kubernetes Training & Certification',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/qed-logo.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -65,6 +65,7 @@ const config: Config = {
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
       respectPrefersColorScheme: true,
+      disableSwitch: true,
     },
     navbar: {
       title: 'Q.E.D. Academy',
@@ -80,8 +81,7 @@ const config: Config = {
           label: 'Courses',
         },
         {to: '/news', label: 'News', position: 'left'},
-        {to: '/about', label: 'About', position: 'left'},
-        {to: '/contact', label: 'Contact', position: 'right'},
+        {to: '/contact', label: 'Contact', position: 'left'},
       ],
     },
     footer: {

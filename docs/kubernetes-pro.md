@@ -1,4 +1,4 @@
-# Kubernetes Pro - 3 Day Advanced Course
+# Kubernetes Pro
 
 ## Course Overview
 
@@ -128,15 +128,14 @@ Lab: Deploy a stateful application on a K8s cluster
 
 Lab: Deploy short-lived applications using Jobs and CronJobs on a K8s cluster
 
-
 #### Mastering kubectl
+
 - Configuration Best Practices
 - Understanding Kubeconfig
 - Kubectl cheatsheet
 - Kubectl explain
 
 Lab: Boost your kubectl productivity
-
 
 #### Role-Based Access Control
 
@@ -156,7 +155,6 @@ Lab: Create a user with limited access on a K8s namespace
 
 Lab: Isolate a namespace on a K8s cluster
 
-
 #### AI on Kubertnetes: Running ML Model Inference on Kubernetes
 
 - Understanding ML Inference
@@ -164,7 +162,6 @@ Lab: Isolate a namespace on a K8s cluster
 - Packaging & Deploying a Model
 
 Lab: Deploy a Model as a REST API
-
 
 ### Day 3
 
@@ -177,7 +174,6 @@ Lab: Deploy a Model as a REST API
 
 Lab: Use Prometheus to monitor K8s components
 
-
 #### Deployment strategies on Kubernetes
 
 - Explain Recreate strategy
@@ -189,7 +185,6 @@ Explain Blue/Green strategy
 
 Lab: Deploy an application on K8s using Blue/Green and Canary strategies
 
-
 #### Troubleshooting and CTF
 
 - Loggging
@@ -197,7 +192,6 @@ Lab: Deploy an application on K8s using Blue/Green and Canary strategies
 - Trooublshooting an application deployed on a K8s cluster
 
 Lab: Solve real K8s application challanges in a 1.5h “Capture the Flag” session
-
 
 ## Next Steps
 

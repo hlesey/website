@@ -30,8 +30,8 @@ export default function Contact(): ReactNode {
                   Get information about upcoming course dates, availability, and pricing.
                 </p>
                 <ul>
-                  <li>Kubernetes Fundamentals - 2 Day Course</li>
-                  <li>Kubernetes Pro - 3 Day Advanced Course</li>
+                  <li>Kubernetes Fundamentals</li>
+                  <li>Kubernetes Pro</li>
                   <li>Custom Enterprise Training</li>
                 </ul>
               </div>

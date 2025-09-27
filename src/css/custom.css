@@ -6,25 +6,161 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #1e40af;
+  --ifm-color-primary-dark: #1d4ed8;
+  --ifm-color-primary-darker: #1e3a8a;
+  --ifm-color-primary-darkest: #1e3a8a;
+  --ifm-color-primary-light: #3b82f6;
+  --ifm-color-primary-lighter: #60a5fa;
+  --ifm-color-primary-lightest: #93c5fd;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #60a5fa;
+  --ifm-color-primary-dark: #3b82f6;
+  --ifm-color-primary-darker: #2563eb;
+  --ifm-color-primary-darkest: #1d4ed8;
+  --ifm-color-primary-light: #93c5fd;
+  --ifm-color-primary-lighter: #bfdbfe;
+  --ifm-color-primary-lightest: #dbeafe;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Modern Light Blue Gradient Background */
+.hero--primary {
+  background: linear-gradient(135deg, #e0f2fe 0%, #b3e5fc 25%, #81d4fa 50%, #4fc3f7 75%, #29b6f6 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero--primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 50%, rgba(41, 182, 246, 0.2) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(79, 195, 247, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 40% 80%, rgba(129, 212, 250, 0.15) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.hero--primary .container {
+  position: relative;
+  z-index: 1;
+}
+
+.hero__title {
+  color: #1e3a8a !important;
+  text-shadow: 0 2px 4px rgba(255, 255, 255, 0.3);
+  font-weight: 700;
+}
+
+.hero__subtitle {
+  color: #1e40af !important;
+  text-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* Enhanced buttons */
+.button--primary {
+  background: linear-gradient(45deg, #1e40af, #3b82f6);
+  border: none;
+  box-shadow: 0 4px 12px rgba(30, 64, 175, 0.3);
+  transition: all 0.3s ease;
+}
+
+.button--primary:hover {
+  background: linear-gradient(45deg, #1d4ed8, #2563eb);
+  box-shadow: 0 6px 16px rgba(30, 64, 175, 0.4);
+  transform: translateY(-2px);
+}
+
+.button--secondary {
+  background: rgba(255, 255, 255, 0.9);
+  color: #1e40af !important;
+  border: 1px solid rgba(30, 64, 175, 0.3);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.button--secondary:hover {
+  background: rgba(255, 255, 255, 1);
+  color: #1e3a8a !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(30, 64, 175, 0.2);
+}
+
+/* Animated background elements */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+.hero--primary::after {
+  content: '';
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(45deg, rgba(41, 182, 246, 0.15), rgba(79, 195, 247, 0.1));
+  border-radius: 50%;
+  top: 10%;
+  right: 10%;
+  animation: float 6s ease-in-out infinite;
+  pointer-events: none;
+}
+
+/* Feature cards enhancement */
+.card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(59, 130, 246, 0.1);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(30, 64, 175, 0.15);
+  border-color: rgba(59, 130, 246, 0.2);
+}
+
+/* Navbar enhancement */
+.navbar {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(59, 130, 246, 0.1);
+}
+
+/* Footer enhancement */
+.footer--dark {
+  background: linear-gradient(135deg, #b3e5fc 0%, #81d4fa 50%, #4fc3f7 100%);
+  color: var(--ifm-color-content);
+}
+
+.footer--dark .footer__title {
+  color: var(--ifm-color-content) !important;
+}
+
+.footer--dark .footer__item {
+  color: var(--ifm-color-content) !important;
+}
+
+.footer--dark .footer__link-item {
+  color: var(--ifm-color-content) !important;
+}
+
+.footer--dark .footer__link-item:hover {
+  color: var(--ifm-color-content-secondary) !important;
+}
+
+.footer--dark .footer__copyright {
+  color: var(--ifm-color-content) !important;
 }
