@@ -165,6 +165,27 @@
   color: var(--ifm-color-content) !important;
 }
 
+/* Force show mobile menu toggle and ensure body scrolling is disabled when menu is open */
+@media screen and (max-width: 996px) {
+  .navbar__toggle {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  
+  .navbar__items--right {
+    display: none !important;
+  }
+  
+  .navbar__items {
+    display: none !important;
+  }
+  
+  .navbar__items:first-child {
+    display: flex !important;
+  }
+}
+
 /* Mobile Optimizations */
 @media screen and (max-width: 996px) {
   /* Hero section mobile optimization */
@@ -244,9 +265,113 @@
   .navbar__title {
     font-size: 1.1rem;
   }
+  
+  /* Mobile menu fixes */
+  .navbar-sidebar {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 80vw !important;
+    max-width: 300px !important;
+    height: 100vh !important;
+    background: rgba(255, 255, 255, 0.98) !important;
+    backdrop-filter: blur(10px);
+    border-right: 1px solid rgba(59, 130, 246, 0.1);
+    z-index: 1000 !important;
+    transform: translateX(0) !important;
+    box-shadow: 4px 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-sidebar__backdrop {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+    z-index: 999 !important;
+  }
+  
+  .navbar-sidebar__items {
+    background: transparent !important;
+    padding: 1rem 0 !important;
+    height: calc(100vh - 80px) !important;
+    overflow-y: auto !important;
+  }
+  
+  .navbar-sidebar__item {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+  
+  .navbar-sidebar__brand {
+    background: rgba(255, 255, 255, 0.95) !important;
+    border-bottom: 1px solid rgba(59, 130, 246, 0.1) !important;
+    padding: 1rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    height: 60px !important;
+    position: sticky !important;
+    top: 0 !important;
+  }
+  
+  /* Mobile hamburger button */
+  .navbar__toggle {
+    display: flex !important;
+    color: var(--ifm-navbar-link-color) !important;
+  }
+  
+  .navbar__toggle svg {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  /* Mobile menu additional fixes for smaller screens */
+  .navbar-sidebar {
+    width: 280px !important;
+    max-width: 280px !important;
+  }
+  
+  .navbar-sidebar__items {
+    padding: 1rem 0;
+  }
+  
+  .navbar-sidebar__item .navbar__link {
+    font-size: 1.2rem !important;
+    padding: 1rem 1.5rem !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    transition: all 0.3s ease !important;
+    display: block !important;
+    color: var(--ifm-color-content) !important;
+    text-decoration: none !important;
+    width: 100% !important;
+    border-bottom: 1px solid rgba(59, 130, 246, 0.05) !important;
+  }
+  
+  .navbar-sidebar__item .navbar__link:hover,
+  .navbar-sidebar__item .navbar__link:focus {
+    background: rgba(59, 130, 246, 0.1) !important;
+    color: var(--ifm-color-primary) !important;
+  }
+  
+  /* Ensure close button is visible and functional */
+  .navbar-sidebar__close {
+    color: var(--ifm-color-content) !important;
+    font-size: 1.5rem !important;
+    padding: 1rem !important;
+    background: none !important;
+    border: none !important;
+    cursor: pointer !important;
+  }
+  
+  .navbar-sidebar__close:hover {
+    color: var(--ifm-color-primary) !important;
+  }
+  
   /* Even smaller screens optimization */
   .hero__title {
     font-size: 1.75rem !important;
@@ -297,8 +422,6 @@
   .button {
     padding: 0.6rem 1.2rem;
     font-size: 0.85rem;
-    width: 100%;
-    margin-bottom: 0.5rem;
   }
   
   .container {
@@ -307,12 +430,15 @@
   }
   
   /* Stack hero buttons vertically */
-  .buttons_AeoN {
+  .buttons {
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
+    gap: 0.75rem;
   }
   
-  .button {
-    margin: 0.25rem 0;
+  .buttons .button {
+    margin: 0 !important; /* Remove all margins including inline styles */
+    width: 240px !important; /* Fixed width for consistency */
+    text-align: center;
   }
 }

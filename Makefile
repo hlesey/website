@@ -8,7 +8,7 @@ help:
 	@echo ""
 	@echo "Available targets:"
 	@echo "  install    Install dependencies"
-	@echo "  run        Run development server (http://localhost:3000)"
+	@echo "  run        Run development server (http://0.0.0.0:3000)"
 	@echo "  build      Build production website"
 	@echo "  serve      Serve built website locally"
 	@echo "  clean      Clean build files and node_modules"
@@ -23,8 +23,8 @@ install:
 # Run development server
 run:
 	@echo "Starting development server..."
-	@echo "Website will be available at: http://localhost:3000"
-	npm start
+	@echo "Website will be available at: http://0.0.0.0:3000"
+	npm start -- --host 0.0.0.0
 
 # Build production website
 build:
@@ -34,8 +34,8 @@ build:
 # Serve built website locally
 serve: build
 	@echo "Serving built website locally..."
-	@echo "Production build available at: http://localhost:3000"
-	npm run serve
+	@echo "Production build available at: http://0.0.0.0:3000"
+	npm run serve -- --host 0.0.0.0
 
 # Clean build files and dependencies
 clean:
