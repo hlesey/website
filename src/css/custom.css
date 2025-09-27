@@ -164,3 +164,155 @@
 .footer--dark .footer__copyright {
   color: var(--ifm-color-content) !important;
 }
+
+/* Mobile Optimizations */
+@media screen and (max-width: 996px) {
+  /* Hero section mobile optimization */
+  .hero--primary {
+    padding: 2rem 0;
+  }
+  
+  .hero__title {
+    font-size: 2rem !important;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+  
+  .hero__subtitle {
+    font-size: 1rem !important;
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+  }
+  
+  /* Hide floating animation on mobile for better performance */
+  .hero--primary::after {
+    display: none;
+  }
+  
+  /* Adjust hero background gradients for mobile */
+  .hero--primary::before {
+    background: 
+      radial-gradient(circle at 30% 40%, rgba(41, 182, 246, 0.15) 0%, transparent 50%),
+      radial-gradient(circle at 70% 60%, rgba(79, 195, 247, 0.1) 0%, transparent 50%);
+  }
+  
+  /* Typography mobile optimization */
+  h1 {
+    font-size: 1.8rem !important;
+  }
+  
+  h2 {
+    font-size: 1.4rem !important;
+  }
+  
+  h3 {
+    font-size: 1.2rem !important;
+  }
+  
+  /* Button mobile optimization */
+  .button {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+    min-height: 44px; /* Touch-friendly minimum size */
+  }
+  
+  .button--primary:hover,
+  .button--secondary:hover {
+    transform: none; /* Remove hover transforms on mobile */
+  }
+  
+  /* Card mobile optimization */
+  .card {
+    margin-bottom: 1rem;
+  }
+  
+  .card:hover {
+    transform: none; /* Remove hover transforms on mobile */
+  }
+  
+  /* Container padding adjustment */
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  /* Navbar mobile optimization */
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar__title {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Even smaller screens optimization */
+  .hero__title {
+    font-size: 1.75rem !important;
+  }
+  
+  .hero__subtitle {
+    font-size: 0.95rem !important;
+  }
+  
+  /* Footer mobile stacking */
+  .footer__links {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .footer__col {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Better spacing for mobile cards */
+  .card__header,
+  .card__body {
+    padding: 1rem;
+  }
+  
+  /* Contact page mobile optimization */
+  .col {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Very small screens (phones in portrait) */
+  .hero--primary {
+    padding: 1.5rem 0;
+  }
+  
+  .hero__title {
+    font-size: 1.5rem !important;
+    margin-bottom: 0.75rem;
+  }
+  
+  .hero__subtitle {
+    font-size: 0.9rem !important;
+    margin-bottom: 1.25rem;
+  }
+  
+  .button {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.85rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  
+  .container {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  
+  /* Stack hero buttons vertically */
+  .buttons_AeoN {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .button {
+    margin: 0.25rem 0;
+  }
+}
