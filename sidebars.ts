@@ -22,6 +22,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'kubernetes-fundamentals',
         'kubernetes-pro',
+        'python-fundamentals',
       ],
     },
   ],
