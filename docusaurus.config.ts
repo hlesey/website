@@ -86,6 +86,7 @@ const config: Config = {
           position: 'left',
           label: 'Courses',
         },
+        {to: '/certifications', label: 'Certifications', position: 'left'},
         {to: '/news', label: 'News', position: 'left'},
         {to: '/contact', label: 'Contact', position: 'left'},
       ],
@@ -101,8 +102,16 @@ const config: Config = {
               to: '/docs/kubernetes-fundamentals',
             },
             {
-              label: 'Kubernetes Pro',
-              to: '/docs/kubernetes-pro',
+              label: 'Kubernetes for Platform Engineers',
+              to: '/docs/kubernetes-for-platform-engineers',
+            },
+            {
+              label: 'Kubernetes for Developers',
+              to: '/docs/kubernetes-for-developers',
+            },
+            {
+              label: 'Kubernetes Security',
+              to: '/docs/kubernetes-security',
             },
           ],
         },
@@ -110,12 +119,24 @@ const config: Config = {
           title: 'Certification',
           items: [
             {
+              label: 'Certification Paths',
+              to: '/certifications',
+            },
+            {
+              label: 'KCNA (Kubernetes and Cloud Native Associate)',
+              href: 'https://www.cncf.io/training/certification/kcna/',
+            },
+            {
               label: 'CKA (Certified Kubernetes Administrator)',
-              href: 'https://www.cncf.io/certification/cka/',
+              href: 'https://www.cncf.io/training/certification/cka/',
             },
             {
               label: 'CKAD (Certified Kubernetes Application Developer)',
-              href: 'https://www.cncf.io/certification/ckad/',
+              href: 'https://www.cncf.io/training/certification/ckad/',
+            },
+            {
+              label: 'CKS (Certified Kubernetes Security Specialist)',
+              href: 'https://www.cncf.io/training/certification/cks/',
             },
             {
               label: 'CNCF',

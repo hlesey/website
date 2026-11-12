@@ -31,7 +31,9 @@ export default function Contact(): ReactNode {
                 </p>
                 <ul>
                   <li>Kubernetes Fundamentals</li>
-                  <li>Kubernetes Pro</li>
+                  <li>Kubernetes for Platform Engineers</li>
+                  <li>Kubernetes for Developers</li>
+                  <li>Kubernetes Security</li>
                   <li>Custom Enterprise Training</li>
                 </ul>
               </div>

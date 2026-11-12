@@ -1,15 +1,24 @@
+---
+sidebar_position: 2
+title: Kubernetes Fundamentals
+description: Kubernetes Fundamentals, a 2-day hands-on Kubernetes course.
+---
+
 # Kubernetes Fundamentals
 
 ## Course Overview
 
-Inspired by [cncf](https://www.cncf.io/certification/cka/) and [kubernetes.io](https://kubernetes.io/docs/home/), the Kubernetes Fundamentals course is designed for software and system engineers who want to get started with Kubernetes. It is focused on hands-on practice and it will help you to develop basic skills needed to interact with Kubernetes ecosystem.
-Once you master Kubernetes, you can manage other container-orchestration solutions such as: RedHat Openshift, Rancher, Amazon EKS, Azure AKS, Google GKE, IBM Cloud Kubernetes Service.
+Inspired by Cloud Native Computing Foundation (CNCF) and kubernetes.io, the Kubernetes Fundamentals course is designed for developers and system engineers who want to get started with Kubernetes. It is focused on hands-on practice and it will help you develop basic skills needed to interact with the Kubernetes ecosystem.
+
+Once you master Kubernetes, you can work with other container-orchestration solutions such as Red Hat OpenShift, Amazon EKS, Azure AKS or Google GKE.
+
+## Certification
+
+Prepares you for the [Kubernetes and Cloud Native Associate (KCNA)](https://www.cncf.io/training/certification/kcna/) exam and is the foundation for the Platform Engineer and Developer paths. See the [certification paths](/certifications).
 
 ## What You'll Learn
 
-By the end of this course, you will be able to:
-
-- Understand Docker and Kubernetes architecture and core concepts
+- Docker and Kubernetes architecture
 - Containerize and deploy an application on Kubernetes
 - Understand multi-container pod design
 - Implement services and load balancing
@@ -18,11 +27,7 @@ By the end of this course, you will be able to:
 
 ## Who Should Attend
 
-- **Developers** looking to containerize and orchestrate applications
-- **System Administrators** managing container infrastructure
-- **DevOps Engineers** implementing CI/CD with Kubernetes
-- **IT Professionals** seeking CKA certification
-- **Architects** designing cloud-native solutions
+Developers, system engineers and architects who want to get started with Kubernetes and gain more skills.
 
 ## Course Format
 
@@ -32,7 +37,7 @@ By the end of this course, you will be able to:
 
 ## Difficulty
 
-Beginner to Intermediate
+Beginner to intermediate
 
 ## Course Prerequisites
 
@@ -54,19 +59,18 @@ To get the most out of this course, you should have:
 #### Course introduction
 
 - Course goals
-- Recommended lectures 
+- Recommended lectures
 - Kubernetes certifications
 - Your practice environment
 
 #### Docker Overview
 
-- Docker overview
-- Docker underlying and security
+- Docker internals and security
 - Containers vs VMs
 - Dev vs Ops - separation of concerns
 - Docker components (architecture)
 
-Lab: Setup your Docker host machine
+**Lab:** Set up your Docker host machine
 
 #### Application containerization
 
@@ -77,7 +81,7 @@ Lab: Setup your Docker host machine
 - Docker networking
 - Docker volumes
 
-Lab: Configure, build and run applications using Docker
+**Lab:** Configure, build and run applications using Docker
 
 #### Kubernetes architecture
 
@@ -85,51 +89,60 @@ Lab: Configure, build and run applications using Docker
 - Kubernetes features
 - Self-Healing
 
-Lab: Setup your K8s lab cluster
+**Lab:** Set up your Kubernetes lab cluster
+
+#### Understanding the Kubernetes API
+
+- API Terminology
+- Interact with Kubernetes API
+- Namespaces
+- Labels, annotations and selectors
+
+**Lab:** Interacting with Kubernetes API using kubectl and the Kubernetes dashboard
 
 ### Day 2
 
 #### Pods
 
 - Pod manifest
-- Pods operations (create, list, delete, update, debug)
-Pod Lifecycle
-- Container probes (self-healing with Readiness and Liveness Probes)
+- Pod operations (create, list, delete, update, debug)
+- Pod Lifecycle
+- Container probes (self-healing with Readiness and Liveness probes)
 - Resource Management (resource requests vs resource limits)
-Lab: Deploy, monitor and configure resource management for Pods
+
+**Lab:** Deploy, monitor and configure resource management for Pods
 
 #### Services and Load Balancing
 
 - Multi-Port Services
 - Service types
 - Cluster internal DNS
-- Ingress controllers
+- Gateway API
+- HTTPRoute
 
-Lab: Exposing your application inside and outside of a K8s cluster
+**Lab:** Exposing your application inside and outside of a Kubernetes cluster
 
-#### ReplicaSet and Deployment
+#### ReplicaSets and Deployments
 
 - Controller Objects
-- Working with ReplicaSet and Deployments
+- ReplicaSets and Deployments
 - Taints and Tolerations
 - Deployment strategies
-- Autoscaling applications deployed on K8s
+- Autoscaling applications deployed on Kubernetes
 
-Lab: Deploy a real application on a K8s cluster
+**Lab:** Deploy a real application on a Kubernetes cluster
 
-#### Kubernetes Configuration
+#### Persistence in Kubernetes
 
-- ConfigMaps
-- Secrets
-- Secrets vs ConfigMaps
-- Encrypting secrets in etcd
+- Types of Volumes
+- Persistent Volume
+- Persistent Volume Claim
 
-Lab: Use secrets and configmaps to decouple configuration for an existing application deployed on a K8s cluster
+**Lab:** Add persistence to an existing application deployed on a Kubernetes cluster
 
 ## Next Steps
 
 After completing this course, consider:
 
-- [Kubernetes Pro](./kubernetes-pro.md) for advanced topics
-- CKA certification exam preparation
-- Specialized workshops on specific Kubernetes topics
+- [Kubernetes for Platform Engineers](./kubernetes-for-platform-engineers.md), towards CKA
+- [Kubernetes for Developers](./kubernetes-for-developers.md), towards CKAD

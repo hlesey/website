@@ -35,7 +35,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,  
     description: (
       <>
-        Prepare for CKA and CKAD certifications with targeted training materials 
+        Prepare for KCNA, CKA, CKAD and CKS certifications with targeted training materials 
         and practice exams. Boost your career with industry-recognized credentials.
       </>
     ),

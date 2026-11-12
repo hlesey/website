@@ -6,8 +6,12 @@ Professional Kubernetes training company website built with [Docusaurus](https:/
 
 Q.E.D. Academy provides expert-led Kubernetes training courses:
 
-- **Kubernetes Fundamentals (2 days)** - Perfect for getting started with container orchestration
-- **Kubernetes Pro (3 days)** - Advanced course for production-ready implementations
+- **Kubernetes Fundamentals (2 days)** - Getting started with Kubernetes, towards KCNA
+- **Kubernetes for Platform Engineers (3 days)** - Cluster administration, towards CKA
+- **Kubernetes for Developers (3 days)** - Building and deploying applications, towards CKAD
+- **Kubernetes Security (3 days)** - Securing clusters and workloads, towards CKS
+
+The certification paths page (`src/pages/certifications.tsx`) maps the courses to the CNCF certifications.
 
 ## Features
 
@@ -85,10 +89,12 @@ GIT_USER=<Your GitHub username> yarn deploy
 ├── docs/                    # Course documentation
 │   ├── intro.md            # Course portfolio overview
 │   ├── kubernetes-fundamentals.md
-│   └── kubernetes-pro.md
+│   ├── kubernetes-for-platform-engineers.md
+│   ├── kubernetes-for-developers.md
+│   └── kubernetes-security.md
 ├── src/
 │   ├── components/         # React components
-│   └── pages/              # Static pages (About, Contact)
+│   └── pages/              # Static pages (About, Contact, Certifications)
 ├── static/                 # Static assets
 ├── docusaurus.config.ts    # Site configuration
 └── sidebars.ts             # Documentation sidebar

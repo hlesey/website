@@ -20,8 +20,14 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/kubernetes-fundamentals">
+            to="/docs/intro">
             View Our Courses 🚀
+          </Link>
+          <Link
+            className="button button--secondary button--outline button--lg"
+            to="/certifications"
+            style={{marginLeft: '1rem'}}>
+            Certification Paths
           </Link>
           <Link
             className="button button--primary button--lg"

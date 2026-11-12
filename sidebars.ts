@@ -21,8 +21,9 @@ const sidebars: SidebarsConfig = {
       label: 'Training Courses',
       items: [
         'kubernetes-fundamentals',
-        'kubernetes-pro',
-        'python-fundamentals',
+        'kubernetes-for-platform-engineers',
+        'kubernetes-for-developers',
+        'kubernetes-security',
       ],
     },
   ],

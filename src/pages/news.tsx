@@ -59,9 +59,9 @@ export default function News(): JSX.Element {
               <div className="card__body">
                 <p><strong>Current Certifications:</strong></p>
                 <ul>
-                  <li><a href="https://www.cncf.io/certification/cka/" target="_blank" rel="noopener noreferrer">CKA - Certified Kubernetes Administrator</a></li>
-                  <li><a href="https://www.cncf.io/certification/ckad/" target="_blank" rel="noopener noreferrer">CKAD - Certified Kubernetes Application Developer</a></li>
-                  <li><a href="https://www.cncf.io/certification/cks/" target="_blank" rel="noopener noreferrer">CKS - Certified Kubernetes Security Specialist</a></li>
+                  <li><a href="https://www.cncf.io/training/certification/cka/" target="_blank" rel="noopener noreferrer">CKA - Certified Kubernetes Administrator</a></li>
+                  <li><a href="https://www.cncf.io/training/certification/ckad/" target="_blank" rel="noopener noreferrer">CKAD - Certified Kubernetes Application Developer</a></li>
+                  <li><a href="https://www.cncf.io/training/certification/cks/" target="_blank" rel="noopener noreferrer">CKS - Certified Kubernetes Security Specialist</a></li>
                 </ul>
               </div>
             </div>
@@ -74,7 +74,9 @@ export default function News(): JSX.Element {
                 <p>Master Kubernetes with our expert-led training:</p>
                 <ul>
                   <li><a href="/docs/kubernetes-fundamentals">Kubernetes Fundamentals - 2 Days</a></li>
-                  <li><a href="/docs/kubernetes-pro">Kubernetes Pro - 3 Days</a></li>
+                  <li><a href="/docs/kubernetes-for-platform-engineers">Kubernetes for Platform Engineers - 3 Days</a></li>
+                  <li><a href="/docs/kubernetes-for-developers">Kubernetes for Developers - 3 Days</a></li>
+                  <li><a href="/docs/kubernetes-security">Kubernetes Security - 3 Days</a></li>
                 </ul>
                 <p><a href="/contact" className="button button--primary button--sm">Get Started Today</a></p>
               </div>

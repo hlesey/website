@@ -8,57 +8,50 @@ Welcome to our comprehensive Kubernetes training program.
 
 ## Our Training Courses
 
-Master Kubernetes with our expert-led, hands-on training courses designed for professionals at every level.
+Master Kubernetes with our expert-led, hands-on training courses designed for professionals at every level. Each course prepares you for a CNCF certification: see the [certification paths](/certifications).
 
 ### [Kubernetes Fundamentals - 2 Days](./kubernetes-fundamentals.md) 🚀
 
-Perfect for getting started with Kubernetes container orchestration.
+Get started with containers and Kubernetes: Docker, Kubernetes architecture and API, Pods, Services, Deployments and persistence.
 
-**What you'll learn:**
+**Certification:** KCNA (Kubernetes and Cloud Native Associate)  
+**Difficulty:** Beginner to intermediate  
+**Ideal for:** Developers, system engineers and architects new to Kubernetes
 
-- Kubernetes architecture and core concepts
-- Pod, Service, and Deployment management
-- Basic networking and storage
-- Troubleshooting fundamentals
-- CKA certification preparation basics
+### [Kubernetes for Platform Engineers - 3 Days](./kubernetes-for-platform-engineers.md) ⚙️
 
-**Duration:** 2 days (16 hours)  
-**Prerequisites:** Basic container and Docker knowledge  
-**Ideal for:** Developers, System Administrators, DevOps beginners
+Run Kubernetes in production: networking and Network Policies, workloads, RBAC, Helm, multitenancy, cluster bootstrap with kubeadm, observability and troubleshooting.
 
-### [Kubernetes Pro - 3 Days](./kubernetes-pro.md) ⚡
+**Certification:** CKA (Certified Kubernetes Administrator), together with Kubernetes Fundamentals  
+**Difficulty:** Intermediate to advanced  
+**Prerequisites:** Kubernetes Fundamentals
 
-Advanced course for experienced practitioners ready for production-grade implementations.
+### [Kubernetes for Developers - 3 Days](./kubernetes-for-developers.md) 💻
 
-**What you'll master:**
+Build and deploy applications on Kubernetes: Pods, Services, Deployments, configuration, persistence, RBAC, Helm, deployment strategies, observability and troubleshooting.
 
-- Advanced security and RBAC
-- Complex networking
-- Production monitoring and observability
-- Multi-cluster management
-- Advanced troubleshooting
+**Certification:** CKAD (Certified Kubernetes Application Developer)  
+**Difficulty:** Beginner to intermediate  
+**Prerequisites:** Experience with Linux containers (Docker)
 
-**Duration:** 3 days (24 hours)  
-**Prerequisites:** Kubernetes Fundamentals + 3+ months experience  
-**Ideal for:** Senior Engineers, Architects
+### [Kubernetes Security - 3 Days](./kubernetes-security.md) 🛡️
+
+Secure clusters and workloads: CIS Benchmarks, cluster and kernel hardening, Pod Security Standards, supply chain security, runtime security, audit logging and admission control.
+
+**Certification:** CKS (Certified Kubernetes Security Specialist), which requires CKA  
+**Difficulty:** Advanced  
+**Prerequisites:** Working experience with Kubernetes (CKA level recommended)
+
+The Platform Engineers, Developers and Security courses end with a 2h "Capture the Flag" session on real Kubernetes challenges.
 
 ## Learning Path
 
 ```mermaid
 graph LR
-    A[Docker/Container Basics] --> B[Kubernetes Fundamentals]
-    B --> C[Kubernetes Pro]
-    C --> D[Certification]
-    C --> E[Specialized Workshops]
+    A[Kubernetes Fundamentals<br/>KCNA] --> B[Kubernetes for Platform Engineers<br/>CKA]
+    A --> C[Kubernetes for Developers<br/>CKAD]
+    B --> D[Kubernetes Security<br/>CKS]
 ```
-
-## Certification Preparation
-
-Our courses prepare you for industry-recognized certifications:
-
-- **CKA** (Certified Kubernetes Administrator)
-- **CKAD** (Certified Kubernetes Application Developer)  
-- **CKS** (Certified Kubernetes Security Specialist)
 
 ## Training Formats
 
@@ -90,7 +83,7 @@ Our courses prepare you for industry-recognized certifications:
 
 Ready to advance your Kubernetes skills?
 
-1. **Choose Your Level** - Start with Fundamentals or jump to Pro
+1. **Choose Your Path** - Start with Fundamentals, then pick the Platform Engineer, Developer or Security course
 2. **Check Schedule** - View upcoming course dates
 3. **Enroll** - Secure your spot today
 4. **Prepare** - Receive pre-course materials
