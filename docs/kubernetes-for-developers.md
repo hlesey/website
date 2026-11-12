@@ -12,6 +12,8 @@ Inspired by Cloud Native Computing Foundation (CNCF) and kubernetes.io, the Kube
 
 Once you master Kubernetes, you can work with other container-orchestration solutions such as Red Hat OpenShift, Amazon EKS, Azure AKS or Google GKE.
 
+The course also shows how to build and deploy on Kubernetes with AI agents such as Claude Code and OpenCode: generating and reviewing manifests, encoding your team's conventions, and keeping the agent inside safe limits.
+
 ## Certification
 
 Prepares you for the [Certified Kubernetes Application Developer (CKAD)](https://www.cncf.io/training/certification/ckad/) exam. See the [certification paths](/certifications).
@@ -30,6 +32,7 @@ Prepares you for the [Certified Kubernetes Application Developer (CKAD)](https:/
 - Advanced continuous deployment strategies used in Kubernetes
 - Use Observability pillars to improve cluster and application reliability
 - Troubleshoot a real Kubernetes application in a 2h "Capture the Flag" session
+- Build, deploy and debug applications with AI agents, safely
 - And much more!
 
 ## Who Should Attend
@@ -176,6 +179,13 @@ To get the most out of this course, you should have:
 - Shadow strategy
 
 **Lab:** Deploy an application on Kubernetes using Blue/Green and Canary strategies
+
+#### Interacting with Kubernetes using AI agents
+
+- AI agents for developers: Claude Code and OpenCode writing manifests and Helm charts
+- AGENTS.md and skills in the application repository: namespaces, registries, labels and deployment conventions
+- Guardrails: a namespace-scoped ServiceAccount for the agent, development clusters
+- Agent-assisted debugging: logs, events and probes, with a human reviewing every change
 
 #### Troubleshooting and CTF
 

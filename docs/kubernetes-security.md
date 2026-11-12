@@ -10,6 +10,8 @@ description: Kubernetes Security, a 3-day hands-on Kubernetes course.
 
 Inspired by Cloud Native Computing Foundation (CNCF) and kubernetes.io, the Kubernetes Security course is designed for engineers who have Kubernetes knowledge and want to deepen their expertise in securing Kubernetes clusters and workloads. It is focused on Cloud Native security principles, cluster hardening, supply chain security and runtime threat detection. The foundation of this course is hands-on practice which helps you develop the necessary skills to secure the Kubernetes ecosystem.
 
+The course also covers AI agents such as Claude Code and OpenCode as a new kind of cluster user: how to give them least privilege, audit what they do, and defend against prompt injection and untrusted skills.
+
 ## Certification
 
 Prepares you for the [Certified Kubernetes Security Specialist (CKS)](https://www.cncf.io/training/certification/cks/) exam. CKS requires a passed CKA exam. See the [certification paths](/certifications).
@@ -28,6 +30,7 @@ Prepares you for the [Certified Kubernetes Security Specialist (CKS)](https://ww
 - Configure Kubernetes Audit Logging
 - Enforce cluster-wide policies with Admission Controllers and ImagePolicyWebhook
 - Solve real Kubernetes security challenges in a 2h "Capture the Flag" session
+- Secure AI agents that access Kubernetes clusters
 - And much more!
 
 ## Who Should Attend
@@ -189,6 +192,13 @@ To get the most out of this course, you should have:
 - Defining policies for resource usage and workload isolation
 
 **Lab:** Isolate a namespace on a Kubernetes cluster
+
+#### Interacting with Kubernetes using AI agents
+
+- The agent as a new identity: dedicated ServiceAccount, least-privilege RBAC, short-lived tokens, audit logs of every agent action
+- New attack surface: prompt injection from cluster data (logs, annotations, ConfigMaps), untrusted skills and MCP servers as a supply chain risk
+- Guardrails: AGENTS.md rules, permission modes and command allowlists in Claude Code and OpenCode, admission policies as the last line of defense
+- Agents for security work: triaging kube-bench and Trivy findings, with a human validating every remediation
 
 #### Kubernetes Security CTF
 

@@ -4,126 +4,9 @@ import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 
+import CertificationMap, {CertificationLegend} from '@site/src/components/CertificationMap';
+
 import styles from './certifications.module.css';
-
-type Badge = 'required' | 'recommended';
-
-type Cert = {
-  code: string;
-  name: string;
-  url: string;
-  icon: ReactNode;
-  badge: Badge;
-  badgeText: string;
-  course: string;
-  courseTo: string;
-};
-
-const CNCF = 'https://www.cncf.io/training/certification';
-
-const icons = {
-  wheel: (
-    <svg viewBox="0 0 24 24" aria-hidden="true">
-      <circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" strokeWidth="1.8" />
-      <circle cx="12" cy="12" r="2.2" fill="currentColor" />
-      {[0, 51, 103, 154, 206, 257, 309].map((a) => (
-        <line
-          key={a}
-          x1="12"
-          y1="12"
-          x2={12 + 8.5 * Math.sin((a * Math.PI) / 180)}
-          y2={12 - 8.5 * Math.cos((a * Math.PI) / 180)}
-          stroke="currentColor"
-          strokeWidth="1.5"
-        />
-      ))}
-    </svg>
-  ),
-  server: (
-    <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.8">
-      <rect x="3.5" y="4" width="17" height="6.5" rx="1.5" />
-      <rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5" />
-      <circle cx="7.5" cy="7.25" r="0.9" fill="currentColor" />
-      <circle cx="7.5" cy="16.75" r="0.9" fill="currentColor" />
-    </svg>
-  ),
-  code: (
-    <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-      <polyline points="8.5 7 3.5 12 8.5 17" />
-      <polyline points="15.5 7 20.5 12 15.5 17" />
-      <line x1="13.5" y1="5" x2="10.5" y2="19" />
-    </svg>
-  ),
-  shield: (
-    <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round">
-      <path d="M12 3 4.5 6v5.5c0 4.6 3.2 8.4 7.5 9.5 4.3-1.1 7.5-4.9 7.5-9.5V6Z" />
-      <polyline points="8.8 12.2 11.2 14.6 15.4 9.8" strokeLinecap="round" />
-    </svg>
-  ),
-};
-
-const certs: Record<string, Cert> = {
-  kcna: {
-    code: 'KCNA',
-    name: 'Kubernetes and Cloud Native Associate',
-    url: `${CNCF}/kcna/`,
-    icon: icons.wheel,
-    badge: 'recommended',
-    badgeText: 'Recommended start',
-    course: 'Kubernetes Fundamentals (2 days)',
-    courseTo: '/docs/kubernetes-fundamentals',
-  },
-  cka: {
-    code: 'CKA',
-    name: 'Certified Kubernetes Administrator',
-    url: `${CNCF}/cka/`,
-    icon: icons.server,
-    badge: 'required',
-    badgeText: 'Required for CKS',
-    course: 'Kubernetes for Platform Engineers (3 days)',
-    courseTo: '/docs/kubernetes-for-platform-engineers',
-  },
-  ckad: {
-    code: 'CKAD',
-    name: 'Certified Kubernetes Application Developer',
-    url: `${CNCF}/ckad/`,
-    icon: icons.code,
-    badge: 'recommended',
-    badgeText: 'Recommended',
-    course: 'Kubernetes for Developers (3 days)',
-    courseTo: '/docs/kubernetes-for-developers',
-  },
-  cks: {
-    code: 'CKS',
-    name: 'Certified Kubernetes Security Specialist',
-    url: `${CNCF}/cks/`,
-    icon: icons.shield,
-    badge: 'recommended',
-    badgeText: 'Recommended',
-    course: 'Kubernetes Security (3 days)',
-    courseTo: '/docs/kubernetes-security',
-  },
-};
-
-function CertCard({cert, featured}: {cert: Cert; featured?: boolean}): ReactNode {
-  return (
-    <div className={clsx(styles.certCard, featured && styles.certCardFeatured)}>
-      <div className={styles.certHead}>
-        <span className={styles.certIcon}>{cert.icon}</span>
-        <div>
-          <a className={styles.certCode} href={cert.url} target="_blank" rel="noopener noreferrer">
-            {cert.code}
-          </a>
-          <div className={styles.certName}>{cert.name}</div>
-        </div>
-      </div>
-      <span className={clsx(styles.badge, styles[cert.badge])}>{cert.badgeText}</span>
-      <Link className={styles.certCourse} to={cert.courseTo}>
-        Course: {cert.course} →
-      </Link>
-    </div>
-  );
-}
 
 function Hero(): ReactNode {
   return (
@@ -142,38 +25,16 @@ function Hero(): ReactNode {
   );
 }
 
-function CertificationMap(): ReactNode {
+function MapSection(): ReactNode {
   return (
     <section className={styles.section}>
       <div className="container">
         <p className={styles.eyebrow}>Certification map</p>
         <div className={styles.mapTitleRow}>
           <Heading as="h2">CNCF structure &amp; skill levels</Heading>
-          <div className={styles.legend}>
-            <span><i className={clsx(styles.dot, styles.required)} /> Required</span>
-            <span><i className={clsx(styles.dot, styles.recommended)} /> Recommended</span>
-          </div>
+          <CertificationLegend />
         </div>
-        <div className={styles.map}>
-          <div className={styles.level}>
-            <div className={styles.levelLabel}>Associate</div>
-            <CertCard cert={certs.kcna} />
-          </div>
-          <div className={clsx(styles.connector, styles.connectorFork)} aria-hidden="true" />
-          <div className={styles.level}>
-            <div className={styles.levelLabel}>Professional</div>
-            <div className={styles.pathTag}>Platform Engineer path</div>
-            <CertCard cert={certs.cka} />
-            <CertCard cert={certs.ckad} />
-            <div className={styles.pathTag}>Developer path</div>
-          </div>
-          <div className={clsx(styles.connector, styles.connectorTop)} aria-hidden="true" />
-          <div className={styles.level}>
-            <div className={styles.levelLabel}>Specialist</div>
-            <CertCard cert={certs.cks} featured />
-            <p className={styles.note}>CKS can be taken only after passing CKA.</p>
-          </div>
-        </div>
+        <CertificationMap />
         <p className={styles.formatNote}>
           KCNA is an online, multiple-choice exam. CKA, CKAD and CKS are online, hands-on exams: you solve
           tasks on real Kubernetes clusters.
@@ -344,7 +205,7 @@ export default function Certifications(): ReactNode {
       description="KCNA, CKA, CKAD and CKS: the CNCF Kubernetes certification paths for Platform Engineers, Developers and Security specialists, and the courses that prepare you for each exam.">
       <Hero />
       <main>
-        <CertificationMap />
+        <MapSection />
         <Foundation />
         <Paths />
         <SecurityProgression />

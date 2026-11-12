@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Q.E.D. Academy',
-  tagline: 'Professional Kubernetes Training & Certification',
+  tagline: 'Professional Kubernetes Training & Certification in the Age of AI',
   favicon: 'img/qed-logo.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future

@@ -12,6 +12,8 @@ Inspired by Cloud Native Computing Foundation (CNCF) and kubernetes.io, the Kube
 
 Once you master Kubernetes, you can work with other container-orchestration solutions such as Red Hat OpenShift, Amazon EKS, Azure AKS or Google GKE.
 
+The course also shows how to operate Kubernetes together with AI agents such as Claude Code and OpenCode: what an agent can safely do on a cluster, how to give it your runbooks and conventions, and which guardrails keep it under control.
+
 ## Certification
 
 Together with [Kubernetes Fundamentals](./kubernetes-fundamentals.md), prepares you for the [Certified Kubernetes Administrator (CKA)](https://www.cncf.io/training/certification/cka/) exam. CKA is required before the CKS exam. See the [certification paths](/certifications).
@@ -27,6 +29,7 @@ Together with [Kubernetes Fundamentals](./kubernetes-fundamentals.md), prepares 
 - Bootstrap a Kubernetes cluster
 - Use Observability pillars to improve cluster and application reliability
 - Troubleshoot a real Kubernetes application in a 2h "Capture the Flag" session
+- Operate and troubleshoot clusters with AI agents, safely
 - And much more!
 
 ## Who Should Attend
@@ -177,6 +180,13 @@ To get the most out of this course, you should have:
 - Shadow strategy
 
 **Lab:** Deploy an application on Kubernetes using Blue/Green and Canary strategies
+
+#### Interacting with Kubernetes using AI agents
+
+- AI agents for platform work: how Claude Code and OpenCode run kubectl, helm and kubeadm for you
+- AGENTS.md and skills: give the agent your cluster runbooks, conventions and upgrade procedures
+- Guardrails: a dedicated read-only identity for the agent, human approval for every change, never admin.conf
+- Agent-assisted troubleshooting: events, logs and node status, with a human validating the fix
 
 #### Troubleshooting and CTF
 

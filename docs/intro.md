@@ -2,6 +2,8 @@
 sidebar_position: 1
 ---
 
+import CertificationMap from '@site/src/components/CertificationMap';
+
 # Course Portfolio
 
 Welcome to our comprehensive Kubernetes training program.
@@ -20,7 +22,7 @@ Get started with containers and Kubernetes: Docker, Kubernetes architecture and 
 
 ### [Kubernetes for Platform Engineers - 3 Days](./kubernetes-for-platform-engineers.md) ⚙️
 
-Run Kubernetes in production: networking and Network Policies, workloads, RBAC, Helm, multitenancy, cluster bootstrap with kubeadm, observability and troubleshooting.
+Run Kubernetes in production: networking and Network Policies, workloads, RBAC, Helm, multitenancy, cluster bootstrap with kubeadm, observability, troubleshooting and operating clusters with AI agents.
 
 **Certification:** CKA (Certified Kubernetes Administrator), together with Kubernetes Fundamentals  
 **Difficulty:** Intermediate to advanced  
@@ -28,7 +30,7 @@ Run Kubernetes in production: networking and Network Policies, workloads, RBAC, 
 
 ### [Kubernetes for Developers - 3 Days](./kubernetes-for-developers.md) 💻
 
-Build and deploy applications on Kubernetes: Pods, Services, Deployments, configuration, persistence, RBAC, Helm, deployment strategies, observability and troubleshooting.
+Build and deploy applications on Kubernetes: Pods, Services, Deployments, configuration, persistence, RBAC, Helm, deployment strategies, observability, troubleshooting and working with AI agents.
 
 **Certification:** CKAD (Certified Kubernetes Application Developer)  
 **Difficulty:** Beginner to intermediate  
@@ -36,22 +38,19 @@ Build and deploy applications on Kubernetes: Pods, Services, Deployments, config
 
 ### [Kubernetes Security - 3 Days](./kubernetes-security.md) 🛡️
 
-Secure clusters and workloads: CIS Benchmarks, cluster and kernel hardening, Pod Security Standards, supply chain security, runtime security, audit logging and admission control.
+Secure clusters and workloads: CIS Benchmarks, cluster and kernel hardening, Pod Security Standards, supply chain security, runtime security, audit logging, admission control and securing AI agents.
 
 **Certification:** CKS (Certified Kubernetes Security Specialist), which requires CKA  
 **Difficulty:** Advanced  
 **Prerequisites:** Working experience with Kubernetes (CKA level recommended)
 
-The Platform Engineers, Developers and Security courses end with a 2h "Capture the Flag" session on real Kubernetes challenges.
+The Platform Engineers, Developers and Security courses end with a 2h "Capture the Flag" session on real Kubernetes challenges, and include a lesson on working with AI agents (Claude Code, OpenCode, AGENTS.md, skills) and the guardrails they need on a cluster.
 
 ## Learning Path
 
-```mermaid
-graph LR
-    A[Kubernetes Fundamentals<br/>KCNA] --> B[Kubernetes for Platform Engineers<br/>CKA]
-    A --> C[Kubernetes for Developers<br/>CKAD]
-    B --> D[Kubernetes Security<br/>CKS]
-```
+From the cloud-native foundation to the security specialist: each certification and the course that prepares you for it. See the [certification paths](/certifications) for details.
+
+<CertificationMap legend />
 
 ## Training Formats
 

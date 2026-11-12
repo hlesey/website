@@ -1,11 +1,69 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
+  padding: 4rem 0;
   width: 100%;
+  background: #f6f8fc;
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.card {
+  height: 100%;
+  background: #fff;
+  border: 1px solid #e3e8f2;
+  border-radius: 1rem;
+  padding: 1rem 1rem 1.75rem;
+  box-shadow: 0 1px 2px rgb(15 23 42 / 0.04);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgb(30 64 175 / 0.12);
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 360 / 220;
+  border-radius: 0.85rem;
+}
+
+.tag {
+  margin: 1.25rem 0.75rem 0.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #7c3aed;
+}
+
+.title {
+  margin: 0 0.75rem 0.6rem;
+}
+
+.description {
+  margin: 0 0.75rem;
+  color: #475569;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 996px) {
+  .features {
+    padding: 2.5rem 0;
+  }
+
+  .features :global(.col) + :global(.col) {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card,
+  .card:hover {
+    transition: none;
+    transform: none;
+  }
 }

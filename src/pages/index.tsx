@@ -25,14 +25,12 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--secondary button--outline button--lg"
-            to="/certifications"
-            style={{marginLeft: '1rem'}}>
+            to="/certifications">
             Certification Paths
           </Link>
           <Link
             className="button button--primary button--lg"
-            to="/contact"
-            style={{marginLeft: '1rem'}}>
+            to="/contact">
             Get Started Today
           </Link>
         </div>
