@@ -1,6 +1,7 @@
 import {useEffect, useRef, useState, type ReactNode, type Ref} from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
+import Translate, {translate} from '@docusaurus/Translate';
 
 import styles from './styles.module.css';
 
@@ -14,6 +15,7 @@ type Cert = {
   badge: Badge;
   badgeText: string;
   course: string;
+  days: string;
   courseTo: string;
 };
 
@@ -67,8 +69,9 @@ const certs: Record<string, Cert> = {
     url: `${CNCF}/kcna/`,
     icon: icons.wheel,
     badge: 'recommended',
-    badgeText: 'Recommended start',
-    course: 'Kubernetes Fundamentals (2 days)',
+    badgeText: translate({id: 'certMap.badge.recommendedStart', message: 'Recommended start'}),
+    course: 'Kubernetes Fundamentals',
+    days: translate({id: 'certMap.days2', message: '2 days'}),
     courseTo: '/docs/kubernetes-fundamentals',
   },
   cka: {
@@ -77,8 +80,9 @@ const certs: Record<string, Cert> = {
     url: `${CNCF}/cka/`,
     icon: icons.server,
     badge: 'required',
-    badgeText: 'Required for CKS',
-    course: 'Kubernetes for Platform Engineers (3 days)',
+    badgeText: translate({id: 'certMap.badge.requiredForCks', message: 'Required for CKS'}),
+    course: 'Kubernetes for Platform Engineers',
+    days: translate({id: 'certMap.days3', message: '3 days'}),
     courseTo: '/docs/kubernetes-for-platform-engineers',
   },
   ckad: {
@@ -87,8 +91,9 @@ const certs: Record<string, Cert> = {
     url: `${CNCF}/ckad/`,
     icon: icons.code,
     badge: 'recommended',
-    badgeText: 'Recommended',
-    course: 'Kubernetes for Developers (3 days)',
+    badgeText: translate({id: 'certMap.badge.recommended', message: 'Recommended'}),
+    course: 'Kubernetes for Developers',
+    days: translate({id: 'certMap.days3', message: '3 days'}),
     courseTo: '/docs/kubernetes-for-developers',
   },
   cks: {
@@ -97,8 +102,9 @@ const certs: Record<string, Cert> = {
     url: `${CNCF}/cks/`,
     icon: icons.shield,
     badge: 'recommended',
-    badgeText: 'Recommended',
-    course: 'Kubernetes Security (3 days)',
+    badgeText: translate({id: 'certMap.badge.recommended', message: 'Recommended'}),
+    course: 'Kubernetes Security',
+    days: translate({id: 'certMap.days3', message: '3 days'}),
     courseTo: '/docs/kubernetes-security',
   },
 };
@@ -117,7 +123,10 @@ function CertCard({cert, featured, cardRef}: {cert: Cert; featured?: boolean; ca
       </div>
       <span className={clsx(styles.badge, styles[cert.badge])}>{cert.badgeText}</span>
       <Link className={styles.certCourse} to={cert.courseTo}>
-        Course: {cert.course} →
+        <Translate id="certMap.course" values={{course: cert.course, days: cert.days}}>
+          {'Course: {course} ({days})'}
+        </Translate>{' '}
+        →
       </Link>
     </div>
   );
@@ -171,8 +180,8 @@ function useMapLinks() {
 export function CertificationLegend(): ReactNode {
   return (
     <div className={styles.legend}>
-      <span><i className={clsx(styles.dot, styles.required)} /> Required</span>
-      <span><i className={clsx(styles.dot, styles.recommended)} /> Recommended</span>
+      <span><i className={clsx(styles.dot, styles.required)} /> <Translate id="certMap.legend.required">Required</Translate></span>
+      <span><i className={clsx(styles.dot, styles.recommended)} /> <Translate id="certMap.legend.recommended">Recommended</Translate></span>
     </div>
   );
 }
@@ -197,22 +206,22 @@ export default function CertificationMap({legend = false}: {legend?: boolean}): 
           ))}
         </svg>
         <div className={styles.level}>
-          <div className={styles.levelLabel}>Associate</div>
+          <div className={styles.levelLabel}><Translate id="certMap.level.associate">Associate</Translate></div>
           <CertCard cert={certs.kcna} cardRef={links.kcna} />
         </div>
         <div className={clsx(styles.connector, styles.connectorFork)} aria-hidden="true" />
         <div className={styles.level}>
-          <div className={styles.levelLabel}>Professional</div>
-          <div className={styles.pathTag}>Platform Engineer path</div>
+          <div className={styles.levelLabel}><Translate id="certMap.level.professional">Professional</Translate></div>
+          <div className={styles.pathTag}><Translate id="certMap.path.platform">Platform Engineer path</Translate></div>
           <CertCard cert={certs.cka} cardRef={links.cka} />
           <CertCard cert={certs.ckad} cardRef={links.ckad} />
-          <div className={styles.pathTag}>Developer path</div>
+          <div className={styles.pathTag}><Translate id="certMap.path.developer">Developer path</Translate></div>
         </div>
         <div className={clsx(styles.connector, styles.connectorTop)} aria-hidden="true" />
         <div className={styles.level}>
-          <div className={styles.levelLabel}>Specialist</div>
+          <div className={styles.levelLabel}><Translate id="certMap.level.specialist">Specialist</Translate></div>
           <CertCard cert={certs.cks} featured cardRef={links.cks} />
-          <p className={styles.note}>CKS can be taken only after passing CKA.</p>
+          <p className={styles.note}><Translate id="certMap.note.cks">CKS can be taken only after passing CKA.</Translate></p>
         </div>
       </div>
     </div>

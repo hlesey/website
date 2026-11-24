@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect, type ReactNode } from 'react';
 
 declare global {
   interface Window {
@@ -6,7 +6,7 @@ declare global {
   }
 }
 
-export default function TwitterFeed(): JSX.Element {
+export default function TwitterFeed(): ReactNode {
   useEffect(() => {
     // Load Twitter widgets script if not already loaded
     if (!window.twttr) {
