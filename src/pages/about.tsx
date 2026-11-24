@@ -6,10 +6,10 @@ import Heading from '@theme/Heading';
 export default function About(): ReactNode {
   return (
     <Layout
-      title={translate({id: 'about.title', message: 'About Q.E.D.'})}
+      title={translate({id: 'about.title', message: 'About Us – Kubernetes & AI Agents Trainers'})}
       description={translate({
         id: 'about.description',
-        message: 'Learn about our mission to provide world-class Kubernetes training and certification preparation.',
+        message: 'Q.E.D. trains engineers in Kubernetes and AI agents with hands-on courses taught by certified practitioners who run Kubernetes in production.',
       })}>
       <div className="container margin-vert--lg">
         <div className="row">

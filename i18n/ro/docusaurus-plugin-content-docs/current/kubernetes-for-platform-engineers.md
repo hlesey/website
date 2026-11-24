@@ -1,14 +1,25 @@
 ---
 sidebar_position: 3
-title: Kubernetes for Platform Engineers
-description: Kubernetes for Platform Engineers, un curs practic de Kubernetes de 3 zile.
+sidebar_label: Kubernetes for Platform Engineers
+title: "Curs Kubernetes for Platform Engineers – CKA, agenti AI"
+description: "Kubernetes for Platform Engineers: curs practic de 3 zile, pregatire CKA: retea, RBAC, Helm, kubeadm, observabilitate si operarea clusterelor cu agenti AI."
 ---
+
+import CourseSchema from '@site/src/components/CourseSchema';
+import CourseFaq from '@site/src/components/CourseFaq';
+
+<CourseSchema
+  name="Kubernetes for Platform Engineers"
+  hours={24}
+  level="Intermediate to advanced"
+  teaches={["Retelistica Kubernetes si Network Policies", "RBAC si controlul accesului", "Helm", "Initializarea clusterului cu kubeadm", "Observabilitate si depanare", "Operarea clusterelor Kubernetes cu agenti AI", "Pregatire pentru examenul CKA"]}
+/>
 
 # Kubernetes for Platform Engineers
 
 ## Prezentarea cursului
 
-Inspirat de Cloud Native Computing Foundation (CNCF) si kubernetes.io, cursul Kubernetes for Platform Engineers este destinat dezvoltatorilor si inginerilor de sisteme care vor sa capete experienta avansata cu Kubernetes. Cursul pune accent pe principiile Cloud Native si pe arhitecturile bazate pe microservicii.
+Inspirat de Cloud Native Computing Foundation (CNCF) si kubernetes.io, cursul Kubernetes for Platform Engineers este destinat dezvoltatorilor si inginerilor de sisteme care vor sa capete experienta avansata cu Kubernetes. Cursul pune accent pe principiile Cloud Native si pe arhitecturile bazate pe microservicii. Cursul se tine live, fizic sau online, in engleza sau romana.
 
 Odata ce stapanesti Kubernetes, poti lucra si cu alte solutii de orchestrare a containerelor, precum Red Hat OpenShift, Amazon EKS, Azure AKS sau Google GKE.
 
@@ -195,6 +206,18 @@ Pentru a profita la maximum de acest curs, ar trebui sa ai:
 - Troubleshooting an application deployed on a Kubernetes cluster
 
 **Lab:** Solve real Kubernetes application challenges in a 2h "Capture the Flag" session
+
+<CourseFaq
+  items={[
+    {question: "Cat dureaza cursul si cum se desfasoara?", answer: "3 zile (24 de ore) de curs live, cu instructor: parte teorie, parte discutii, cu exercitii si multa practica pe clustere Kubernetes reale."},
+    {question: "Cursul este fizic sau online?", answer: "Ambele. Cursurile se tin fizic in Bucuresti sau live online, pentru echipe din Europa si SUA. Sesiunile online pentru echipele din SUA sunt programate in orele de lucru din SUA."},
+    {question: "In ce limba se preda cursul?", answer: "In romana sau in engleza, in functie de grupa."},
+    {question: "Pentru ce certificare te pregateste?", answer: "Impreuna cu Kubernetes Fundamentals, pentru examenul Certified Kubernetes Administrator (CKA). CKA este necesar inainte de examenul CKS."},
+    {question: "Cursul include si agenti AI?", answer: "Da. Inveti sa operezi si sa depanezi clustere cu agenti AI precum Claude Code si OpenCode: ce poate face un agent in siguranta pe un cluster, cum ii dai runbook-urile si conventiile tale, si ce limite il tin sub control."},
+    {question: "Ce trebuie sa stiu inainte de curs?", answer: "Experienta anterioara cu Docker, cunostinte de baza de linie de comanda Linux, editarea fisierelor YAML si JSON, si cursul Kubernetes Fundamentals sau cunostinte echivalente."},
+    {question: "Organizati cursuri private pentru echipe?", answer: "Da. Cursurile private si pentru companii au curriculum personalizat, se tin la sediul vostru sau la distanta si au programare flexibila. Scrie-ne la contact@qedzone.ro cu numarul de participanti si perioada preferata."},
+  ]}
+/>
 
 ## Pasii urmatori
 

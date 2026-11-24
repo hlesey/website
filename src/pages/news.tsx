@@ -8,10 +8,10 @@ import TwitterFeed from '@site/src/components/TwitterFeed';
 export default function News(): ReactNode {
   return (
     <Layout
-      title={translate({id: 'news.title', message: 'Latest News & Updates'})}
+      title={translate({id: 'news.title', message: 'Kubernetes & Cloud Native News'})}
       description={translate({
         id: 'news.description',
-        message: 'Stay updated with the latest news from the cloud-native and Kubernetes community',
+        message: 'The latest Kubernetes and cloud native news from the CNCF, plus learning resources and certification updates for KCNA, CKA, CKAD and CKS candidates.',
       })}>
       <div className="container margin-vert--lg">
         <div className="row">

@@ -1,0 +1,36 @@
+# Q.E.D.
+
+> Q.E.D. runs hands-on Kubernetes and AI agents training courses that prepare engineers for the CNCF certifications KCNA, CKA, CKAD and CKS. Courses run in person in Bucharest, Romania, or live online for teams across Europe and the US, taught in English or Romanian.
+
+Every course is mostly hands-on practice on real Kubernetes clusters. The Platform Engineers, Developers and Security courses also teach working with AI agents such as Claude Code and OpenCode on Kubernetes (AGENTS.md, skills, guardrails, least privilege), and end with a 2-hour "Capture the Flag" session on real Kubernetes challenges.
+
+## Courses
+
+- [Kubernetes Fundamentals](https://qedzone.ro/docs/kubernetes-fundamentals): 2 days (16 hours), beginner to intermediate. Docker, Kubernetes architecture and API, Pods, Services, Deployments, persistence. Prepares for KCNA (Kubernetes and Cloud Native Associate).
+- [Kubernetes for Platform Engineers](https://qedzone.ro/docs/kubernetes-for-platform-engineers): 3 days (24 hours), intermediate to advanced. Networking and Network Policies, RBAC, Helm, multitenancy, kubeadm cluster bootstrap, observability, troubleshooting, operating clusters with AI agents. Together with Kubernetes Fundamentals, prepares for CKA (Certified Kubernetes Administrator).
+- [Kubernetes for Developers](https://qedzone.ro/docs/kubernetes-for-developers): 3 days (24 hours), beginner to intermediate. Building and deploying applications on Kubernetes, configuration, persistence, Helm, deployment strategies, observability, building and debugging with AI agents. Prepares for CKAD (Certified Kubernetes Application Developer).
+- [Kubernetes Security](https://qedzone.ro/docs/kubernetes-security): 3 days (24 hours), advanced. CIS Benchmarks, cluster and kernel hardening, Pod Security Standards, supply chain and runtime security, audit logging, admission control, securing AI agents on clusters. Prepares for CKS (Certified Kubernetes Security Specialist), which requires CKA.
+
+## Training formats
+
+- Public courses: scheduled group sessions, in person in Bucharest or live online.
+- Private and corporate training: customized curriculum for a team, on-site or remote, flexible scheduling.
+- Online courses for US teams are scheduled during US working hours.
+- Languages: English or Romanian.
+
+## Certification paths
+
+- [Kubernetes certification paths](https://qedzone.ro/certifications): KCNA, then CKA (Platform Engineer path) or CKAD (Developer path), then CKS (requires CKA), and the course that prepares for each exam.
+- [Course portfolio](https://qedzone.ro/docs/intro)
+
+## Contact
+
+- Email: contact@qedzone.ro (enterprise training: enterprise@qedzone.ro)
+- Phone: +40 725 347 822
+- [Contact page](https://qedzone.ro/contact)
+- [About Q.E.D.](https://qedzone.ro/about)
+
+## Romanian version
+
+- [Site in Romanian](https://qedzone.ro/ro/)
+- [Portofoliul de cursuri](https://qedzone.ro/ro/docs/intro)

@@ -212,8 +212,8 @@ function CallToAction(): ReactNode {
 export default function Certifications(): ReactNode {
   return (
     <Layout
-      title={translate({id: 'certifications.title', message: 'Kubernetes Certification Paths'})}
-      description={translate({id: 'certifications.description', message: 'KCNA, CKA, CKAD and CKS: the CNCF Kubernetes certification paths for Platform Engineers, Developers and Security specialists, and the courses that prepare you for each exam.'})}>
+      title={translate({id: 'certifications.title', message: 'Kubernetes Certification Paths: KCNA, CKA, CKAD, CKS'})}
+      description={translate({id: 'certifications.description', message: 'KCNA, CKA, CKAD and CKS explained: the CNCF Kubernetes certification paths for platform engineers, developers and security, and the course for each exam.'})}>
       <Hero />
       <main>
         <MapSection />

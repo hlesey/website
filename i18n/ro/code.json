@@ -1,9 +1,9 @@
 {
   "about.title": {
-    "message": "Despre Q.E.D."
+    "message": "Despre noi – traineri Kubernetes si agenti AI"
   },
   "about.description": {
-    "message": "Afla despre misiunea noastra de a oferi cursuri Kubernetes de clasa mondiala si pregatire pentru certificare."
+    "message": "Q.E.D. pregateste ingineri in Kubernetes si agenti AI prin cursuri practice, sustinute de practicieni certificati care ruleaza Kubernetes in productie."
   },
   "about.heading": {
     "message": "Despre Q.E.D."
@@ -222,16 +222,16 @@
     "message": "Contacteaza-ne"
   },
   "certifications.title": {
-    "message": "Trasee de certificare Kubernetes"
+    "message": "Trasee de certificare Kubernetes: KCNA, CKA, CKAD, CKS"
   },
   "certifications.description": {
-    "message": "KCNA, CKA, CKAD si CKS: traseele de certificare Kubernetes CNCF pentru Platform Engineers, Developers si specialisti in securitate, si cursurile care te pregatesc pentru fiecare examen."
+    "message": "KCNA, CKA, CKAD si CKS pe scurt: traseele de certificare Kubernetes CNCF pentru platform engineers, developeri si securitate, si cursul pentru fiecare examen."
   },
   "contact.title": {
-    "message": "Contact Q.E.D."
+    "message": "Contact – informatii despre cursurile Kubernetes"
   },
   "contact.description": {
-    "message": "Contacteaza Q.E.D. pentru informatii despre cursuri, programare si inscriere."
+    "message": "Contacteaza Q.E.D. pentru cursuri de Kubernetes si agenti AI, pregatire CKA, CKAD si CKS, urmatoarele sesiuni si cursuri private pentru echipa ta."
   },
   "contact.heading": {
     "message": "Contacteaza-ne"
@@ -259,27 +259,6 @@
   },
   "contact.enterprise.heading": {
     "message": "Cursuri pentru companii"
-  },
-  "contact.hours.heading": {
-    "message": "Program"
-  },
-  "contact.hours.weekdays": {
-    "message": "Luni - Vineri:"
-  },
-  "contact.hours.weekdays.time": {
-    "message": "09:00 - 18:00 EST"
-  },
-  "contact.hours.saturday": {
-    "message": "Sambata:"
-  },
-  "contact.hours.saturday.time": {
-    "message": "10:00 - 16:00 EST"
-  },
-  "contact.hours.sunday": {
-    "message": "Duminica:"
-  },
-  "contact.hours.closed": {
-    "message": "Inchis"
   },
   "contact.start.heading": {
     "message": "Incepe chiar azi"
@@ -354,16 +333,16 @@
     "message": "Incepe acum"
   },
   "home.title": {
-    "message": "Bine ai venit la Q.E.D."
+    "message": "Curs Kubernetes si agenti AI | Pregatire CKA, CKAD, CKS"
   },
   "home.description": {
-    "message": "Cursuri profesionale Kubernetes si pregatire pentru certificare. Invata orchestrarea containerelor prin practica, alaturi de experti din industrie."
+    "message": "Cursuri practice de Kubernetes si agenti AI pentru ingineri, fizic sau live online, care te pregatesc pentru examenele KCNA, CKA, CKAD si CKS."
   },
   "news.title": {
-    "message": "Ultimele stiri si noutati"
+    "message": "Stiri Kubernetes si cloud native"
   },
   "news.description": {
-    "message": "Afla ultimele noutati din comunitatea cloud-native si Kubernetes"
+    "message": "Ultimele stiri Kubernetes si cloud native de la CNCF, plus resurse de invatare si noutati despre certificarile KCNA, CKA, CKAD si CKS pentru candidati."
   },
   "news.heading": {
     "message": "Ultimele stiri si noutati"
@@ -811,5 +790,8 @@
   "theme.tags.tagsPageTitle": {
     "message": "Etichete",
     "description": "The title of the tag list page"
+  },
+  "courseFaq.heading": {
+    "message": "Intrebari frecvente"
   }
 }

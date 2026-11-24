@@ -47,11 +47,11 @@ function HomepageHeader() {
 export default function Home(): ReactNode {
   return (
     <Layout
-      title={translate({id: 'home.title', message: 'Welcome to Q.E.D.'})}
+      title={translate({id: 'home.title', message: 'Kubernetes & AI Agents Training | CKA, CKAD, CKS Prep'})}
       description={translate({
         id: 'home.description',
         message:
-          'Professional Kubernetes training and certification preparation courses. Master container orchestration with hands-on learning from industry experts.',
+          'Hands-on Kubernetes and AI agents training for engineers: live online or in-person courses that prepare you for the KCNA, CKA, CKAD and CKS exams.',
       })}>
       <HomepageHeader />
       <main>
