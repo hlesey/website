@@ -6,10 +6,10 @@ import Heading from '@theme/Heading';
 export default function Contact(): ReactNode {
   return (
     <Layout
-      title={translate({id: 'contact.title', message: 'Contact Q.E.D.'})}
+      title={translate({id: 'contact.title', message: 'Contact – Kubernetes Training Inquiries'})}
       description={translate({
         id: 'contact.description',
-        message: 'Get in touch with Q.E.D. for training inquiries, course schedules, and enrollment information.',
+        message: 'Contact Q.E.D. about Kubernetes and AI agents courses, CKA, CKAD and CKS preparation, upcoming dates and private training for your engineering team.',
       })}>
       <div className="container margin-vert--lg">
         <div className="row">
@@ -57,15 +57,6 @@ export default function Contact(): ReactNode {
                 </Heading>
                 <p>
                   <strong><Translate id="contact.email">Email:</Translate></strong> <a href="mailto:enterprise@qedzone.ro">enterprise@qedzone.ro</a><br/>
-                </p>
-
-                <Heading as="h2">
-                  <Translate id="contact.hours.heading">Office Hours</Translate>
-                </Heading>
-                <p>
-                  <strong><Translate id="contact.hours.weekdays">Monday - Friday:</Translate></strong> <Translate id="contact.hours.weekdays.time">9:00 AM - 6:00 PM EST</Translate><br/>
-                  <strong><Translate id="contact.hours.saturday">Saturday:</Translate></strong> <Translate id="contact.hours.saturday.time">10:00 AM - 4:00 PM EST</Translate><br/>
-                  <strong><Translate id="contact.hours.sunday">Sunday:</Translate></strong> <Translate id="contact.hours.closed">Closed</Translate>
                 </p>
               </div>
             </div>

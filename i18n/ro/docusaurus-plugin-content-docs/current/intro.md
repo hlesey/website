@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+sidebar_label: Portofoliul de cursuri
+title: "Cursuri Kubernetes si agenti AI"
+description: "Cursuri de Kubernetes si agenti AI pentru orice nivel: Fundamentals, Platform Engineers, Developers si Security, cu pregatire pentru KCNA, CKA, CKAD si CKS."
 ---
 
 import CertificationMap from '@site/src/components/CertificationMap';
@@ -53,6 +56,8 @@ De la fundamentele cloud-native pana la specialistul in securitate: fiecare cert
 <CertificationMap legend />
 
 ## Formate de curs
+
+Cursurile se tin fizic in Bucuresti sau live online, pentru echipe din Europa si SUA, in romana sau engleza.
 
 ### Cursuri publice
 

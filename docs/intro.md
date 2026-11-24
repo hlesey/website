@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+sidebar_label: Course Portfolio
+title: "Kubernetes & AI Agents Courses"
+description: "Kubernetes and AI agents courses for every level: Fundamentals, Platform Engineers, Developers and Security, preparing you for KCNA, CKA, CKAD and CKS."
 ---
 
 import CertificationMap from '@site/src/components/CertificationMap';
@@ -53,6 +56,8 @@ From the cloud-native foundation to the security specialist: each certification 
 <CertificationMap legend />
 
 ## Training Formats
+
+Courses run in person in Bucharest, or live online for teams across Europe and the US, in English or Romanian.
 
 ### Public Courses
 
