@@ -5,8 +5,8 @@ import Heading from '@theme/Heading';
 export default function Contact(): ReactNode {
   return (
     <Layout
-      title="Contact Q.E.D. Academy"
-      description="Get in touch with Q.E.D. Academy for training inquiries, course schedules, and enrollment information.">
+      title="Contact Q.E.D."
+      description="Get in touch with Q.E.D. for training inquiries, course schedules, and enrollment information.">
       <div className="container margin-vert--lg">
         <div className="row">
           <div className="col col--8 col--offset-2">
