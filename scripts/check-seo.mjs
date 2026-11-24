@@ -68,7 +68,19 @@ for (const sitemap of ['build/sitemap.xml', 'build/ro/sitemap.xml']) {
     const s = read(sitemap);
     return !s.includes('/blog') && !s.includes('markdown-page');
   });
+  // GitHub Pages redirects /page to /page/, so indexed URLs must already end with "/"
+  check(`${sitemap} URLs end with "/"`, () =>
+    [...read(sitemap).matchAll(/<loc>([^<]*)<\/loc>/g)].every((m) => m[1].endsWith('/')),
+  );
 }
+check('canonical URLs end with "/"', () =>
+  ['', 'ro/', 'about', 'docs/kubernetes-security', 'ro/docs/kubernetes-security'].every((p) =>
+    page(p).match(/rel="canonical" href="(https:\/\/qedzone\.ro\/[^"]*)"/)[1].endsWith('/'),
+  ),
+);
+check('llms.txt links end with "/"', () =>
+  [...llms.matchAll(/\]\((https:\/\/qedzone\.ro[^)]*)\)/g)].every((m) => m[1].endsWith('/')),
+);
 
 // Structured data
 check('all JSON-LD blocks are valid JSON', () => htmlFiles('build').every((f) => (jsonLd(read(f)), true)));

@@ -99,4 +99,4 @@ Ready to advance your Kubernetes skills?
 **Enterprise Solutions:** [contact@qedzone.ro](mailto:contact@qedzone.ro)  
 **Phone:** +40 725 347 822
 
-[Contact Us](../contact) | [About Us](../about)
+[Contact Us](/contact) | [About Us](/about)

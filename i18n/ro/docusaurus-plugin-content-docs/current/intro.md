@@ -99,4 +99,4 @@ Vrei sa-ti dezvolti abilitatile Kubernetes?
 **Solutii pentru companii:** [contact@qedzone.ro](mailto:contact@qedzone.ro)  
 **Telefon:** +40 725 347 822
 
-[Contacteaza-ne](../contact) | [Despre noi](../about)
+[Contacteaza-ne](/contact) | [Despre noi](/about)
