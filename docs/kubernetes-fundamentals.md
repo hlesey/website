@@ -151,6 +151,8 @@ To get the most out of this course, you should have:
 
 **Lab:** Add persistence to an existing application deployed on a Kubernetes cluster
 
+## Frequently asked questions {#faq}
+
 <CourseFaq
   items={[
     {question: "How long is the course and what is the format?", answer: "2 days (16 hours) of live, instructor-led training: part lecture, part discussion, with exercises and heavy hands-on practice on real Kubernetes clusters."},

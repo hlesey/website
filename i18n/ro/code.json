@@ -333,10 +333,10 @@
     "message": "Incepe acum"
   },
   "home.title": {
-    "message": "Curs Kubernetes si agenti AI | Pregatire CKA, CKAD, CKS"
+    "message": "Curs Kubernetes si agenti AI – pregatire CKA, CKAD, CKS"
   },
   "home.description": {
-    "message": "Cursuri practice de Kubernetes si agenti AI pentru ingineri, fizic sau live online, care te pregatesc pentru examenele KCNA, CKA, CKAD si CKS."
+    "message": "Cursuri practice de Kubernetes si agenti AI pentru ingineri, fizic in Bucuresti sau live online, care te pregatesc pentru examenele KCNA, CKA, CKAD si CKS."
   },
   "news.title": {
     "message": "Stiri Kubernetes si cloud native"
@@ -790,8 +790,5 @@
   "theme.tags.tagsPageTitle": {
     "message": "Etichete",
     "description": "The title of the tag list page"
-  },
-  "courseFaq.heading": {
-    "message": "Intrebari frecvente"
   }
 }

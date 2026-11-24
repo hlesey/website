@@ -2,7 +2,7 @@
 sidebar_position: 4
 sidebar_label: Kubernetes for Developers
 title: "Curs Kubernetes for Developers – CKAD si agenti AI"
-description: "Kubernetes for Developers: curs practic de 3 zile, pregatire CKAD: aplicatii pe Kubernetes, Helm, observabilitate si lucrul cu agenti AI."
+description: "Kubernetes for Developers: curs practic de 3 zile pentru pregatirea CKAD, despre aplicatii pe Kubernetes, Helm, observabilitate si lucrul cu agenti AI."
 ---
 
 import CourseSchema from '@site/src/components/CourseSchema';
@@ -206,6 +206,8 @@ Pentru a profita la maximum de acest curs, ar trebui sa ai:
 
 **Lab:** Solve real Kubernetes application challenges in a 2h "Capture the Flag" session
 
+## Intrebari frecvente {#faq}
+
 <CourseFaq
   items={[
     {question: "Cat dureaza cursul si cum se desfasoara?", answer: "3 zile (24 de ore) de curs live, cu instructor: parte teorie, parte discutii, cu exercitii si multa practica pe clustere Kubernetes reale."},
@@ -214,7 +216,7 @@ Pentru a profita la maximum de acest curs, ar trebui sa ai:
     {question: "Pentru ce certificare te pregateste?", answer: "Pentru examenul Certified Kubernetes Application Developer (CKAD)."},
     {question: "Cursul include si agenti AI?", answer: "Da. Inveti sa construiesti si sa livrezi pe Kubernetes cu agenti AI precum Claude Code si OpenCode: generarea si verificarea manifestelor, transmiterea conventiilor echipei si pastrarea agentului in limite sigure."},
     {question: "Ce trebuie sa stiu inainte de curs?", answer: "Experienta anterioara cu containere Linux (Docker), cunostinte de baza de linie de comanda Linux, editarea fisierelor YAML si JSON si o privire de ansamblu asupra conceptelor Cloud Native."},
-    {question: "Organizati cursuri private pentru echipe?", answer: "Da. Cursurile private si pentru companii au curriculum personalizat, se tin la sediul vostru sau la distanta si au programare flexibila. Scrie-ne la contact@qedzone.ro cu numarul de participanti si perioada preferata."},
+    {question: "Organizati cursuri private pentru echipe?", answer: "Da. Cursurile private si pentru companii au curriculum personalizat, se tin la sediul companiei tale sau la distanta si au programare flexibila. Scrie-ne la contact@qedzone.ro cu numarul de participanti si perioada preferata."},
   ]}
 />
 

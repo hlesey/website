@@ -1,8 +1,8 @@
 ---
 sidebar_position: 3
 sidebar_label: Kubernetes for Platform Engineers
-title: "Curs Kubernetes for Platform Engineers – CKA, agenti AI"
-description: "Kubernetes for Platform Engineers: curs practic de 3 zile, pregatire CKA: retea, RBAC, Helm, kubeadm, observabilitate si operarea clusterelor cu agenti AI."
+title: "Kubernetes for Platform Engineers – CKA si agenti AI"
+description: "Kubernetes for Platform Engineers: curs practic de 3 zile pentru pregatirea CKA, despre retea, RBAC, Helm, kubeadm, observabilitate si clustere cu agenti AI."
 ---
 
 import CourseSchema from '@site/src/components/CourseSchema';
@@ -207,6 +207,8 @@ Pentru a profita la maximum de acest curs, ar trebui sa ai:
 
 **Lab:** Solve real Kubernetes application challenges in a 2h "Capture the Flag" session
 
+## Intrebari frecvente {#faq}
+
 <CourseFaq
   items={[
     {question: "Cat dureaza cursul si cum se desfasoara?", answer: "3 zile (24 de ore) de curs live, cu instructor: parte teorie, parte discutii, cu exercitii si multa practica pe clustere Kubernetes reale."},
@@ -215,7 +217,7 @@ Pentru a profita la maximum de acest curs, ar trebui sa ai:
     {question: "Pentru ce certificare te pregateste?", answer: "Impreuna cu Kubernetes Fundamentals, pentru examenul Certified Kubernetes Administrator (CKA). CKA este necesar inainte de examenul CKS."},
     {question: "Cursul include si agenti AI?", answer: "Da. Inveti sa operezi si sa depanezi clustere cu agenti AI precum Claude Code si OpenCode: ce poate face un agent in siguranta pe un cluster, cum ii dai runbook-urile si conventiile tale, si ce limite il tin sub control."},
     {question: "Ce trebuie sa stiu inainte de curs?", answer: "Experienta anterioara cu Docker, cunostinte de baza de linie de comanda Linux, editarea fisierelor YAML si JSON, si cursul Kubernetes Fundamentals sau cunostinte echivalente."},
-    {question: "Organizati cursuri private pentru echipe?", answer: "Da. Cursurile private si pentru companii au curriculum personalizat, se tin la sediul vostru sau la distanta si au programare flexibila. Scrie-ne la contact@qedzone.ro cu numarul de participanti si perioada preferata."},
+    {question: "Organizati cursuri private pentru echipe?", answer: "Da. Cursurile private si pentru companii au curriculum personalizat, se tin la sediul companiei tale sau la distanta si au programare flexibila. Scrie-ne la contact@qedzone.ro cu numarul de participanti si perioada preferata."},
   ]}
 />
 

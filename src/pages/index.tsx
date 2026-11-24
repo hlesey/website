@@ -47,7 +47,7 @@ function HomepageHeader() {
 export default function Home(): ReactNode {
   return (
     <Layout
-      title={translate({id: 'home.title', message: 'Kubernetes & AI Agents Training | CKA, CKAD, CKS Prep'})}
+      title={translate({id: 'home.title', message: 'Kubernetes & AI Agents Training – CKA, CKAD, CKS Prep'})}
       description={translate({
         id: 'home.description',
         message:

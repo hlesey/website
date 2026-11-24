@@ -206,6 +206,8 @@ To get the most out of this course, you should have:
 
 **Lab:** Solve real Kubernetes application challenges in a 2h "Capture the Flag" session
 
+## Frequently asked questions {#faq}
+
 <CourseFaq
   items={[
     {question: "How long is the course and what is the format?", answer: "3 days (24 hours) of live, instructor-led training: part lecture, part discussion, with exercises and heavy hands-on practice on real Kubernetes clusters."},
