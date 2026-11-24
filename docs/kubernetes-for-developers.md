@@ -1,14 +1,25 @@
 ---
 sidebar_position: 4
-title: Kubernetes for Developers
-description: Kubernetes for Developers, a 3-day hands-on Kubernetes course.
+sidebar_label: Kubernetes for Developers
+title: "Kubernetes for Developers – CKAD Prep & AI Agents"
+description: "Kubernetes for Developers: a 3-day hands-on CKAD prep course on building and deploying apps on Kubernetes, Helm, observability and working with AI agents."
 ---
+
+import CourseSchema from '@site/src/components/CourseSchema';
+import CourseFaq from '@site/src/components/CourseFaq';
+
+<CourseSchema
+  name="Kubernetes for Developers"
+  hours={24}
+  level="Beginner to intermediate"
+  teaches={["Deploying applications on Kubernetes", "Multi-container Pod design", "Configuration and persistence", "Helm", "Deployment strategies", "Observability and troubleshooting", "Building and deploying with AI agents", "CKAD exam preparation"]}
+/>
 
 # Kubernetes for Developers
 
 ## Course Overview
 
-Inspired by Cloud Native Computing Foundation (CNCF) and kubernetes.io, the Kubernetes for Developers course is designed for developers who have basic containers knowledge and want to get started with Kubernetes and gain more expertise. It is focused on Cloud Native principles and microservices architectures. The foundation of this course is hands-on practice which helps you develop the necessary skills to interact with the Kubernetes ecosystem.
+Inspired by Cloud Native Computing Foundation (CNCF) and kubernetes.io, the Kubernetes for Developers course is designed for developers who have basic containers knowledge and want to get started with Kubernetes and gain more expertise. It is focused on Cloud Native principles and microservices architectures. The foundation of this course is hands-on practice which helps you develop the necessary skills to interact with the Kubernetes ecosystem. The course runs live, in person or online, in English or Romanian.
 
 Once you master Kubernetes, you can work with other container-orchestration solutions such as Red Hat OpenShift, Amazon EKS, Azure AKS or Google GKE.
 
@@ -194,6 +205,18 @@ To get the most out of this course, you should have:
 - Troubleshooting an application deployed on a Kubernetes cluster
 
 **Lab:** Solve real Kubernetes application challenges in a 2h "Capture the Flag" session
+
+<CourseFaq
+  items={[
+    {question: "How long is the course and what is the format?", answer: "3 days (24 hours) of live, instructor-led training: part lecture, part discussion, with exercises and heavy hands-on practice on real Kubernetes clusters."},
+    {question: "Is the course in person or online?", answer: "Both. Courses run in person in Bucharest, Romania, or live online for teams across Europe and the US. Online sessions for US teams are scheduled during US working hours."},
+    {question: "What language is the course taught in?", answer: "English or Romanian, depending on the group."},
+    {question: "Which certification does it prepare for?", answer: "The Certified Kubernetes Application Developer (CKAD) exam."},
+    {question: "Does the course cover AI agents?", answer: "Yes. You learn to build and deploy on Kubernetes with AI agents such as Claude Code and OpenCode: generating and reviewing manifests, encoding your team's conventions, and keeping the agent inside safe limits."},
+    {question: "What do I need to know before the course?", answer: "Previous experience with Linux containers (Docker), basic Linux command line skills, editing YAML and JSON files, and an overview of Cloud Native application concepts."},
+    {question: "Do you run private training for teams?", answer: "Yes. Private and corporate training comes with a customized curriculum, on-site or remote delivery and flexible scheduling. Write to contact@qedzone.ro with your team size and preferred dates."},
+  ]}
+/>
 
 ## Next Steps
 

@@ -1,14 +1,25 @@
 ---
 sidebar_position: 2
-title: Kubernetes Fundamentals
-description: Kubernetes Fundamentals, un curs practic de Kubernetes de 2 zile.
+sidebar_label: Kubernetes Fundamentals
+title: "Curs Kubernetes Fundamentals – pregatire KCNA"
+description: "Kubernetes Fundamentals: curs practic de 2 zile despre Docker, arhitectura Kubernetes, Pods, Services si Deployments, care te pregateste pentru examenul KCNA."
 ---
+
+import CourseSchema from '@site/src/components/CourseSchema';
+import CourseFaq from '@site/src/components/CourseFaq';
+
+<CourseSchema
+  name="Kubernetes Fundamentals"
+  hours={16}
+  level="Beginner to intermediate"
+  teaches={["Docker si containere", "Arhitectura si API-ul Kubernetes", "Pods, Services si Deployments", "Persistenta in Kubernetes", "Pregatire pentru examenul KCNA"]}
+/>
 
 # Kubernetes Fundamentals
 
 ## Prezentarea cursului
 
-Inspirat de Cloud Native Computing Foundation (CNCF) si kubernetes.io, cursul Kubernetes Fundamentals este destinat dezvoltatorilor si inginerilor de sisteme care vor sa inceapa cu Kubernetes. Cursul pune accent pe practica si te ajuta sa iti dezvolti abilitatile de baza necesare pentru a lucra cu ecosistemul Kubernetes.
+Inspirat de Cloud Native Computing Foundation (CNCF) si kubernetes.io, cursul Kubernetes Fundamentals este destinat dezvoltatorilor si inginerilor de sisteme care vor sa inceapa cu Kubernetes. Cursul pune accent pe practica si te ajuta sa iti dezvolti abilitatile de baza necesare pentru a lucra cu ecosistemul Kubernetes. Cursul se tine live, fizic sau online, in engleza sau romana.
 
 Odata ce stapanesti Kubernetes, poti lucra si cu alte solutii de orchestrare a containerelor, precum Red Hat OpenShift, Amazon EKS, Azure AKS sau Google GKE.
 
@@ -139,6 +150,17 @@ Pentru a profita la maximum de acest curs, ar trebui sa ai:
 - Persistent Volume Claim
 
 **Lab:** Add persistence to an existing application deployed on a Kubernetes cluster
+
+<CourseFaq
+  items={[
+    {question: "Cat dureaza cursul si cum se desfasoara?", answer: "2 zile (16 ore) de curs live, cu instructor: parte teorie, parte discutii, cu exercitii si multa practica pe clustere Kubernetes reale."},
+    {question: "Cursul este fizic sau online?", answer: "Ambele. Cursurile se tin fizic in Bucuresti sau live online, pentru echipe din Europa si SUA. Sesiunile online pentru echipele din SUA sunt programate in orele de lucru din SUA."},
+    {question: "In ce limba se preda cursul?", answer: "In romana sau in engleza, in functie de grupa."},
+    {question: "Pentru ce certificare te pregateste?", answer: "Pentru examenul Kubernetes and Cloud Native Associate (KCNA). Este si baza pentru traseele Platform Engineer (CKA) si Developer (CKAD)."},
+    {question: "Ce trebuie sa stiu inainte de curs?", answer: "Cunostinte de baza de linie de comanda Linux, editarea fisierelor YAML si JSON si o privire de ansamblu asupra conceptelor Cloud Native."},
+    {question: "Organizati cursuri private pentru echipe?", answer: "Da. Cursurile private si pentru companii au curriculum personalizat, se tin la sediul vostru sau la distanta si au programare flexibila. Scrie-ne la contact@qedzone.ro cu numarul de participanti si perioada preferata."},
+  ]}
+/>
 
 ## Pasii urmatori
 

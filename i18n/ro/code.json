@@ -790,5 +790,8 @@
   "theme.tags.tagsPageTitle": {
     "message": "Etichete",
     "description": "The title of the tag list page"
+  },
+  "courseFaq.heading": {
+    "message": "Intrebari frecvente"
   }
 }

@@ -1,14 +1,25 @@
 ---
 sidebar_position: 5
-title: Kubernetes Security
-description: Kubernetes Security, a 3-day hands-on Kubernetes course.
+sidebar_label: Kubernetes Security
+title: "Kubernetes Security Course – CKS Prep & AI Agents"
+description: "Kubernetes Security: a 3-day hands-on CKS preparation course on cluster hardening, Pod Security, supply chain and runtime security, and securing AI agents."
 ---
+
+import CourseSchema from '@site/src/components/CourseSchema';
+import CourseFaq from '@site/src/components/CourseFaq';
+
+<CourseSchema
+  name="Kubernetes Security"
+  hours={24}
+  level="Advanced"
+  teaches={["Cluster hardening and CIS Benchmarks", "RBAC and API server security", "Pod Security Standards", "Supply chain security", "Runtime security and audit logging", "Admission control", "Securing AI agents on Kubernetes", "CKS exam preparation"]}
+/>
 
 # Kubernetes Security
 
 ## Course Overview
 
-Inspired by Cloud Native Computing Foundation (CNCF) and kubernetes.io, the Kubernetes Security course is designed for engineers who have Kubernetes knowledge and want to deepen their expertise in securing Kubernetes clusters and workloads. It is focused on Cloud Native security principles, cluster hardening, supply chain security and runtime threat detection. The foundation of this course is hands-on practice which helps you develop the necessary skills to secure the Kubernetes ecosystem.
+Inspired by Cloud Native Computing Foundation (CNCF) and kubernetes.io, the Kubernetes Security course is designed for engineers who have Kubernetes knowledge and want to deepen their expertise in securing Kubernetes clusters and workloads. It is focused on Cloud Native security principles, cluster hardening, supply chain security and runtime threat detection. The foundation of this course is hands-on practice which helps you develop the necessary skills to secure the Kubernetes ecosystem. The course runs live, in person or online, in English or Romanian.
 
 The course also covers AI agents such as Claude Code and OpenCode as a new kind of cluster user: how to give them least privilege, audit what they do, and defend against prompt injection and untrusted skills.
 
@@ -207,3 +218,15 @@ To get the most out of this course, you should have:
 - Team-based competitive format
 
 **Lab:** Solve real Kubernetes security challenges in a 2h "Capture the Flag" session
+
+<CourseFaq
+  items={[
+    {question: "How long is the course and what is the format?", answer: "3 days (24 hours) of live, instructor-led training: part lecture, part discussion, with exercises and heavy hands-on practice on real Kubernetes clusters."},
+    {question: "Is the course in person or online?", answer: "Both. Courses run in person in Bucharest, Romania, or live online for teams across Europe and the US. Online sessions for US teams are scheduled during US working hours."},
+    {question: "What language is the course taught in?", answer: "English or Romanian, depending on the group."},
+    {question: "Which certification does it prepare for?", answer: "The Certified Kubernetes Security Specialist (CKS) exam. To take CKS you need a passed CKA exam."},
+    {question: "Does the course cover AI agents?", answer: "Yes. It treats AI agents such as Claude Code and OpenCode as a new kind of cluster user: how to give them least privilege, audit what they do, and defend against prompt injection and untrusted skills."},
+    {question: "What do I need to know before the course?", answer: "Working experience with Kubernetes (CKA level recommended), basic Linux command line skills, editing YAML and JSON files, and previous experience with Linux containers (Docker)."},
+    {question: "Do you run private training for teams?", answer: "Yes. Private and corporate training comes with a customized curriculum, on-site or remote delivery and flexible scheduling. Write to contact@qedzone.ro with your team size and preferred dates."},
+  ]}
+/>

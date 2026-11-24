@@ -1,14 +1,25 @@
 ---
 sidebar_position: 3
-title: Kubernetes for Platform Engineers
-description: Kubernetes for Platform Engineers, a 3-day hands-on Kubernetes course.
+sidebar_label: Kubernetes for Platform Engineers
+title: "Kubernetes for Platform Engineers – CKA Prep & AI Agents"
+description: "Kubernetes for Platform Engineers: a 3-day hands-on CKA prep course on networking, RBAC, Helm, kubeadm, observability and operating clusters with AI agents."
 ---
+
+import CourseSchema from '@site/src/components/CourseSchema';
+import CourseFaq from '@site/src/components/CourseFaq';
+
+<CourseSchema
+  name="Kubernetes for Platform Engineers"
+  hours={24}
+  level="Intermediate to advanced"
+  teaches={["Kubernetes networking and Network Policies", "RBAC and access control", "Helm", "Cluster bootstrap with kubeadm", "Observability and troubleshooting", "Operating Kubernetes clusters with AI agents", "CKA exam preparation"]}
+/>
 
 # Kubernetes for Platform Engineers
 
 ## Course Overview
 
-Inspired by Cloud Native Computing Foundation (CNCF) and kubernetes.io, the Kubernetes for Platform Engineers course is designed for developers and system engineers who want to get more advanced experience with Kubernetes. It is focused on Cloud Native principles and microservices architectures.
+Inspired by Cloud Native Computing Foundation (CNCF) and kubernetes.io, the Kubernetes for Platform Engineers course is designed for developers and system engineers who want to get more advanced experience with Kubernetes. It is focused on Cloud Native principles and microservices architectures. The course runs live, in person or online, in English or Romanian.
 
 Once you master Kubernetes, you can work with other container-orchestration solutions such as Red Hat OpenShift, Amazon EKS, Azure AKS or Google GKE.
 
@@ -195,6 +206,18 @@ To get the most out of this course, you should have:
 - Troubleshooting an application deployed on a Kubernetes cluster
 
 **Lab:** Solve real Kubernetes application challenges in a 2h "Capture the Flag" session
+
+<CourseFaq
+  items={[
+    {question: "How long is the course and what is the format?", answer: "3 days (24 hours) of live, instructor-led training: part lecture, part discussion, with exercises and heavy hands-on practice on real Kubernetes clusters."},
+    {question: "Is the course in person or online?", answer: "Both. Courses run in person in Bucharest, Romania, or live online for teams across Europe and the US. Online sessions for US teams are scheduled during US working hours."},
+    {question: "What language is the course taught in?", answer: "English or Romanian, depending on the group."},
+    {question: "Which certification does it prepare for?", answer: "Together with Kubernetes Fundamentals, the Certified Kubernetes Administrator (CKA) exam. CKA is required before the CKS exam."},
+    {question: "Does the course cover AI agents?", answer: "Yes. You learn to operate and troubleshoot clusters with AI agents such as Claude Code and OpenCode: what an agent can safely do on a cluster, how to give it your runbooks and conventions, and which guardrails keep it under control."},
+    {question: "What do I need to know before the course?", answer: "Previous experience with Docker, basic Linux command line skills, editing YAML and JSON files, and the Kubernetes Fundamentals course or equivalent knowledge."},
+    {question: "Do you run private training for teams?", answer: "Yes. Private and corporate training comes with a customized curriculum, on-site or remote delivery and flexible scheduling. Write to contact@qedzone.ro with your team size and preferred dates."},
+  ]}
+/>
 
 ## Next Steps
 

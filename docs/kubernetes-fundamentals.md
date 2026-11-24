@@ -1,14 +1,25 @@
 ---
 sidebar_position: 2
-title: Kubernetes Fundamentals
-description: Kubernetes Fundamentals, a 2-day hands-on Kubernetes course.
+sidebar_label: Kubernetes Fundamentals
+title: "Kubernetes Fundamentals Course – KCNA Preparation"
+description: "Kubernetes Fundamentals: a 2-day hands-on course on Docker, Kubernetes architecture, Pods, Services and Deployments that prepares you for the KCNA exam."
 ---
+
+import CourseSchema from '@site/src/components/CourseSchema';
+import CourseFaq from '@site/src/components/CourseFaq';
+
+<CourseSchema
+  name="Kubernetes Fundamentals"
+  hours={16}
+  level="Beginner to intermediate"
+  teaches={["Docker and containers", "Kubernetes architecture and API", "Pods, Services and Deployments", "Persistence in Kubernetes", "KCNA exam preparation"]}
+/>
 
 # Kubernetes Fundamentals
 
 ## Course Overview
 
-Inspired by Cloud Native Computing Foundation (CNCF) and kubernetes.io, the Kubernetes Fundamentals course is designed for developers and system engineers who want to get started with Kubernetes. It is focused on hands-on practice and it will help you develop basic skills needed to interact with the Kubernetes ecosystem.
+Inspired by Cloud Native Computing Foundation (CNCF) and kubernetes.io, the Kubernetes Fundamentals course is designed for developers and system engineers who want to get started with Kubernetes. It is focused on hands-on practice and it will help you develop basic skills needed to interact with the Kubernetes ecosystem. The course runs live, in person or online, in English or Romanian.
 
 Once you master Kubernetes, you can work with other container-orchestration solutions such as Red Hat OpenShift, Amazon EKS, Azure AKS or Google GKE.
 
@@ -139,6 +150,17 @@ To get the most out of this course, you should have:
 - Persistent Volume Claim
 
 **Lab:** Add persistence to an existing application deployed on a Kubernetes cluster
+
+<CourseFaq
+  items={[
+    {question: "How long is the course and what is the format?", answer: "2 days (16 hours) of live, instructor-led training: part lecture, part discussion, with exercises and heavy hands-on practice on real Kubernetes clusters."},
+    {question: "Is the course in person or online?", answer: "Both. Courses run in person in Bucharest, Romania, or live online for teams across Europe and the US. Online sessions for US teams are scheduled during US working hours."},
+    {question: "What language is the course taught in?", answer: "English or Romanian, depending on the group."},
+    {question: "Which certification does it prepare for?", answer: "The Kubernetes and Cloud Native Associate (KCNA) exam. It is also the foundation for the Platform Engineer (CKA) and Developer (CKAD) paths."},
+    {question: "What do I need to know before the course?", answer: "Basic Linux command line skills, editing YAML and JSON files, and an overview of Cloud Native application concepts."},
+    {question: "Do you run private training for teams?", answer: "Yes. Private and corporate training comes with a customized curriculum, on-site or remote delivery and flexible scheduling. Write to contact@qedzone.ro with your team size and preferred dates."},
+  ]}
+/>
 
 ## Next Steps
 

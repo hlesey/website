@@ -1,14 +1,25 @@
 ---
 sidebar_position: 5
-title: Kubernetes Security
-description: Kubernetes Security, un curs practic de Kubernetes de 3 zile.
+sidebar_label: Kubernetes Security
+title: "Curs Kubernetes Security – pregatire CKS si agenti AI"
+description: "Kubernetes Security: curs practic de 3 zile, pregatire CKS: hardening, Pod Security, securitatea supply chain si la runtime, plus securizarea agentilor AI."
 ---
+
+import CourseSchema from '@site/src/components/CourseSchema';
+import CourseFaq from '@site/src/components/CourseFaq';
+
+<CourseSchema
+  name="Kubernetes Security"
+  hours={24}
+  level="Advanced"
+  teaches={["Hardening pentru cluster si CIS Benchmarks", "RBAC si securitatea API server", "Pod Security Standards", "Securitatea supply chain", "Securitate la runtime si audit logging", "Admission control", "Securizarea agentilor AI pe Kubernetes", "Pregatire pentru examenul CKS"]}
+/>
 
 # Kubernetes Security
 
 ## Prezentarea cursului
 
-Inspirat de Cloud Native Computing Foundation (CNCF) si kubernetes.io, cursul Kubernetes Security este destinat inginerilor care au cunostinte de Kubernetes si vor sa isi aprofundeze expertiza in securizarea clusterelor si a workload-urilor Kubernetes. Cursul pune accent pe principiile de securitate Cloud Native, hardening-ul clusterului, securitatea lantului de aprovizionare (supply chain) si detectarea amenintarilor la runtime. Baza acestui curs este practica, care te ajuta sa iti dezvolti abilitatile necesare pentru a securiza ecosistemul Kubernetes.
+Inspirat de Cloud Native Computing Foundation (CNCF) si kubernetes.io, cursul Kubernetes Security este destinat inginerilor care au cunostinte de Kubernetes si vor sa isi aprofundeze expertiza in securizarea clusterelor si a workload-urilor Kubernetes. Cursul pune accent pe principiile de securitate Cloud Native, hardening-ul clusterului, securitatea lantului de aprovizionare (supply chain) si detectarea amenintarilor la runtime. Baza acestui curs este practica, care te ajuta sa iti dezvolti abilitatile necesare pentru a securiza ecosistemul Kubernetes. Cursul se tine live, fizic sau online, in engleza sau romana.
 
 Cursul trateaza si agentii AI precum Claude Code si OpenCode ca pe un nou tip de utilizator al clusterului: cum le acorzi privilegii minime, cum auditezi ce fac si cum te aperi de prompt injection si de skill-uri nesigure.
 
@@ -207,3 +218,15 @@ Pentru a profita la maximum de acest curs, ar trebui sa ai:
 - Team-based competitive format
 
 **Lab:** Solve real Kubernetes security challenges in a 2h "Capture the Flag" session
+
+<CourseFaq
+  items={[
+    {question: "Cat dureaza cursul si cum se desfasoara?", answer: "3 zile (24 de ore) de curs live, cu instructor: parte teorie, parte discutii, cu exercitii si multa practica pe clustere Kubernetes reale."},
+    {question: "Cursul este fizic sau online?", answer: "Ambele. Cursurile se tin fizic in Bucuresti sau live online, pentru echipe din Europa si SUA. Sesiunile online pentru echipele din SUA sunt programate in orele de lucru din SUA."},
+    {question: "In ce limba se preda cursul?", answer: "In romana sau in engleza, in functie de grupa."},
+    {question: "Pentru ce certificare te pregateste?", answer: "Pentru examenul Certified Kubernetes Security Specialist (CKS). Pentru CKS trebuie sa fi promovat examenul CKA."},
+    {question: "Cursul include si agenti AI?", answer: "Da. Trateaza agentii AI precum Claude Code si OpenCode ca pe un nou tip de utilizator al clusterului: cum le acorzi privilegii minime, cum auditezi ce fac si cum te aperi de prompt injection si de skill-uri nesigure."},
+    {question: "Ce trebuie sa stiu inainte de curs?", answer: "Experienta practica cu Kubernetes (nivel CKA recomandat), cunostinte de baza de linie de comanda Linux, editarea fisierelor YAML si JSON si experienta anterioara cu containere Linux (Docker)."},
+    {question: "Organizati cursuri private pentru echipe?", answer: "Da. Cursurile private si pentru companii au curriculum personalizat, se tin la sediul vostru sau la distanta si au programare flexibila. Scrie-ne la contact@qedzone.ro cu numarul de participanti si perioada preferata."},
+  ]}
+/>
