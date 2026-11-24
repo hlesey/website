@@ -1,15 +1,17 @@
-# Q.E.D. Academy Website Makefile
+# Q.E.D. Website Makefile
 
-.PHONY: help install run build serve clean deploy
+.PHONY: help install run run-ro build check-i18n serve clean deploy
 
 # Default target
 help:
-	@echo "Q.E.D. Academy Website Development"
+	@echo "Q.E.D. Website Development"
 	@echo ""
 	@echo "Available targets:"
 	@echo "  install    Install dependencies"
 	@echo "  run        Run development server (http://0.0.0.0:3000)"
+	@echo "  run-ro     Run development server in Romanian"
 	@echo "  build      Build production website"
+	@echo "  check-i18n Build and check the English/Romanian setup"
 	@echo "  serve      Serve built website locally"
 	@echo "  clean      Clean build files and node_modules"
 	@echo "  deploy     Deploy to production"
@@ -26,6 +28,15 @@ run:
 	@echo "Website will be available at: http://0.0.0.0:3000"
 	npm start -- --host 0.0.0.0
 
+# Run development server in Romanian
+run-ro:
+	@echo "Starting development server (Romanian)..."
+	@echo "Website will be available at: http://0.0.0.0:3000/ro/"
+	npm start -- --host 0.0.0.0 --locale ro
+
+# Build and check both languages
+check-i18n: build
+	./scripts/check-i18n.sh
 # Build production website
 build:
 	@echo "Building production website..."

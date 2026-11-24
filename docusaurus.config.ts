@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Q.E.D. Academy',
+  title: 'Q.E.D.',
   tagline: 'Professional Kubernetes Training & Certification in the Age of AI',
   favicon: 'img/qed-logo.png',
 
@@ -32,12 +32,14 @@ const config: Config = {
   // optional:
   // mermaid: { theme: { light: 'neutral', dark: 'dark' } },
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+  // English is served at /, Romanian at /ro/
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'ro'],
+    localeConfigs: {
+      en: {label: 'English'},
+      ro: {label: 'Romana', htmlLang: 'ro'},
+    },
   },
 
   presets: [
@@ -74,9 +76,9 @@ const config: Config = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'Q.E.D. Academy',
+      title: 'Q.E.D.',
       logo: {
-        alt: 'Q.E.D. Academy Logo',
+        alt: 'Q.E.D. Logo',
         src: 'img/qed-logo.png',
       },
       items: [
@@ -89,6 +91,7 @@ const config: Config = {
         {to: '/certifications', label: 'Certifications', position: 'left'},
         {to: '/news', label: 'News', position: 'left'},
         {to: '/contact', label: 'Contact', position: 'left'},
+        {type: 'localeDropdown', position: 'right'},
       ],
     },
     footer: {
@@ -162,7 +165,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Q.E.D. Academy.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Q.E.D.`,
     },
     prism: {
       theme: prismThemes.github,

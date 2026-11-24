@@ -1,10 +1,10 @@
-# Q.E.D. Academy Website
+# Q.E.D. Website
 
 Professional Kubernetes training company website built with [Docusaurus](https://docusaurus.io/).
 
 ## About
 
-Q.E.D. Academy provides expert-led Kubernetes training courses:
+Q.E.D. provides expert-led Kubernetes training courses:
 
 - **Kubernetes Fundamentals (2 days)** - Getting started with Kubernetes, towards KCNA
 - **Kubernetes for Platform Engineers (3 days)** - Cluster administration, towards CKA
@@ -45,6 +45,22 @@ yarn start
 ```
 
 This starts a local development server at `http://localhost:3000`. Most changes are reflected live without restarting the server.
+
+The dev server runs one language at a time. To work on the Romanian version:
+
+```bash
+npm start -- --locale ro
+```
+
+## Languages
+
+The site is in English (`/`) and Romanian (`/ro/`), with a language switcher in the navbar.
+
+- Romanian text is written **without diacritics**.
+- Page and component strings use `<Translate>` / `translate()`; Romanian values are in `i18n/ro/code.json`, navbar/footer in `i18n/ro/docusaurus-theme-classic/`.
+- Romanian course pages are in `i18n/ro/docusaurus-plugin-content-docs/current/`. The "Course Content" section (modules, topics, labs) stays in English.
+- After adding new strings, run `npm run write-translations -- --locale ro` and fill in the new entries.
+- `scripts/check-i18n.sh` checks a build (`npm run build`) for both languages.
 
 ### Build
 
