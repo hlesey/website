@@ -151,6 +151,8 @@ Pentru a profita la maximum de acest curs, ar trebui sa ai:
 
 **Lab:** Add persistence to an existing application deployed on a Kubernetes cluster
 
+## Intrebari frecvente {#faq}
+
 <CourseFaq
   items={[
     {question: "Cat dureaza cursul si cum se desfasoara?", answer: "2 zile (16 ore) de curs live, cu instructor: parte teorie, parte discutii, cu exercitii si multa practica pe clustere Kubernetes reale."},
@@ -158,7 +160,7 @@ Pentru a profita la maximum de acest curs, ar trebui sa ai:
     {question: "In ce limba se preda cursul?", answer: "In romana sau in engleza, in functie de grupa."},
     {question: "Pentru ce certificare te pregateste?", answer: "Pentru examenul Kubernetes and Cloud Native Associate (KCNA). Este si baza pentru traseele Platform Engineer (CKA) si Developer (CKAD)."},
     {question: "Ce trebuie sa stiu inainte de curs?", answer: "Cunostinte de baza de linie de comanda Linux, editarea fisierelor YAML si JSON si o privire de ansamblu asupra conceptelor Cloud Native."},
-    {question: "Organizati cursuri private pentru echipe?", answer: "Da. Cursurile private si pentru companii au curriculum personalizat, se tin la sediul vostru sau la distanta si au programare flexibila. Scrie-ne la contact@qedzone.ro cu numarul de participanti si perioada preferata."},
+    {question: "Organizati cursuri private pentru echipe?", answer: "Da. Cursurile private si pentru companii au curriculum personalizat, se tin la sediul companiei tale sau la distanta si au programare flexibila. Scrie-ne la contact@qedzone.ro cu numarul de participanti si perioada preferata."},
   ]}
 />
 

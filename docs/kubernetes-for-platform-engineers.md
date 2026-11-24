@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 sidebar_label: Kubernetes for Platform Engineers
-title: "Kubernetes for Platform Engineers – CKA Prep & AI Agents"
+title: "Kubernetes for Platform Engineers – CKA & AI Agents"
 description: "Kubernetes for Platform Engineers: a 3-day hands-on CKA prep course on networking, RBAC, Helm, kubeadm, observability and operating clusters with AI agents."
 ---
 
@@ -206,6 +206,8 @@ To get the most out of this course, you should have:
 - Troubleshooting an application deployed on a Kubernetes cluster
 
 **Lab:** Solve real Kubernetes application challenges in a 2h "Capture the Flag" session
+
+## Frequently asked questions {#faq}
 
 <CourseFaq
   items={[

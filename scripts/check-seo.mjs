@@ -79,6 +79,10 @@ const pages = ['', 'certifications', 'about', 'contact', 'news', 'docs/intro'];
 for (const locale of ['', 'ro/']) {
   for (const p of pages) {
     check(`/${locale}${p} description is 120-160 chars`, () => descOk(page(locale + p)));
+    check(`/${locale}${p} title is at most 60 chars, one "|"`, () => {
+      const t = title(page(locale + p));
+      return t.length <= 60 + ' | Q.E.D.'.length && t.split('|').length === 2;
+    });
   }
 }
 
@@ -98,7 +102,10 @@ for (const [locale, faq] of [
     check(`/${p} has Course data`, () => hasType(page(p), 'Course'));
     check(`/${p} has FAQPage data`, () => hasType(page(p), 'FAQPage'));
     check(`/${p} shows "${faq}"`, () => page(p).includes(faq));
-    check(`/${p} title is at most 65 chars`, () => title(page(p)).length <= 65);
+    check(`/${p} lists the FAQ in the table of contents`, () =>
+      /class="table-of-contents__link[^"]*" href="#faq"|href="#faq" class="table-of-contents__link/.test(page(p)),
+    );
+    check(`/${p} title is at most 62 chars`, () => title(page(p)).length <= 62);
     check(`/${p} description is 120-160 chars`, () => descOk(page(p)));
   }
 }
