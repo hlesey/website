@@ -1,0 +1,66 @@
+{
+  "link.title.Training": {
+    "message": "Cursuri",
+    "description": "The title of the footer links column with title=Training in the footer"
+  },
+  "link.title.Certification": {
+    "message": "Certificari",
+    "description": "The title of the footer links column with title=Certification in the footer"
+  },
+  "link.title.Company": {
+    "message": "Companie",
+    "description": "The title of the footer links column with title=Company in the footer"
+  },
+  "link.item.label.Kubernetes Fundamentals": {
+    "message": "Kubernetes Fundamentals",
+    "description": "The label of footer link with label=Kubernetes Fundamentals linking to /docs/kubernetes-fundamentals"
+  },
+  "link.item.label.Kubernetes for Platform Engineers": {
+    "message": "Kubernetes for Platform Engineers",
+    "description": "The label of footer link with label=Kubernetes for Platform Engineers linking to /docs/kubernetes-for-platform-engineers"
+  },
+  "link.item.label.Kubernetes for Developers": {
+    "message": "Kubernetes for Developers",
+    "description": "The label of footer link with label=Kubernetes for Developers linking to /docs/kubernetes-for-developers"
+  },
+  "link.item.label.Kubernetes Security": {
+    "message": "Kubernetes Security",
+    "description": "The label of footer link with label=Kubernetes Security linking to /docs/kubernetes-security"
+  },
+  "link.item.label.Certification Paths": {
+    "message": "Trasee de certificare",
+    "description": "The label of footer link with label=Certification Paths linking to /certifications"
+  },
+  "link.item.label.KCNA (Kubernetes and Cloud Native Associate)": {
+    "message": "KCNA (Kubernetes and Cloud Native Associate)",
+    "description": "The label of footer link with label=KCNA (Kubernetes and Cloud Native Associate) linking to https://www.cncf.io/training/certification/kcna/"
+  },
+  "link.item.label.CKA (Certified Kubernetes Administrator)": {
+    "message": "CKA (Certified Kubernetes Administrator)",
+    "description": "The label of footer link with label=CKA (Certified Kubernetes Administrator) linking to https://www.cncf.io/training/certification/cka/"
+  },
+  "link.item.label.CKAD (Certified Kubernetes Application Developer)": {
+    "message": "CKAD (Certified Kubernetes Application Developer)",
+    "description": "The label of footer link with label=CKAD (Certified Kubernetes Application Developer) linking to https://www.cncf.io/training/certification/ckad/"
+  },
+  "link.item.label.CKS (Certified Kubernetes Security Specialist)": {
+    "message": "CKS (Certified Kubernetes Security Specialist)",
+    "description": "The label of footer link with label=CKS (Certified Kubernetes Security Specialist) linking to https://www.cncf.io/training/certification/cks/"
+  },
+  "link.item.label.CNCF": {
+    "message": "CNCF",
+    "description": "The label of footer link with label=CNCF linking to https://www.cncf.io/"
+  },
+  "link.item.label.About Us": {
+    "message": "Despre noi",
+    "description": "The label of footer link with label=About Us linking to /about"
+  },
+  "link.item.label.Contact": {
+    "message": "Contact",
+    "description": "The label of footer link with label=Contact linking to /contact"
+  },
+  "link.item.label.News": {
+    "message": "Noutati",
+    "description": "The label of footer link with label=News linking to /news"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "Q.E.D.",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Logo Q.E.D.",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Courses": {
+    "message": "Cursuri",
+    "description": "Navbar item with label Courses"
+  },
+  "item.label.Certifications": {
+    "message": "Certificari",
+    "description": "Navbar item with label Certifications"
+  },
+  "item.label.News": {
+    "message": "Noutati",
+    "description": "Navbar item with label News"
+  },
+  "item.label.Contact": {
+    "message": "Contact",
+    "description": "Navbar item with label Contact"
+  }
+}

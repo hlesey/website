@@ -1,0 +1,815 @@
+{
+  "about.title": {
+    "message": "Despre Q.E.D."
+  },
+  "about.description": {
+    "message": "Afla despre misiunea noastra de a oferi cursuri Kubernetes de clasa mondiala si pregatire pentru certificare."
+  },
+  "about.heading": {
+    "message": "Despre Q.E.D."
+  },
+  "about.intro": {
+    "message": "Q.E.D. este un furnizor de top de cursuri profesionale si pregatire pentru certificare in tehnologiile Cloud Native. Suntem specializati in instruire practica, aplicata, care pregateste cursantii pentru provocarile reale de orchestrare a containerelor."
+  },
+  "about.mission.heading": {
+    "message": "Misiunea noastra"
+  },
+  "about.mission.text": {
+    "message": "Sa oferim dezvoltatorilor, inginerilor DevOps si profesionistilor IT cunostintele si abilitatile necesare pentru a stapani Kubernetes si a avansa in cariera in tehnologiile cloud-native."
+  },
+  "about.why.heading": {
+    "message": "De ce Q.E.D.?"
+  },
+  "about.why.expertise.label": {
+    "message": "Experienta din industrie:"
+  },
+  "about.why.expertise.text": {
+    "message": "Instructorii nostri sunt profesionisti Kubernetes certificati, cu experienta vasta in productie"
+  },
+  "about.why.practical.label": {
+    "message": "Accent pe practica:"
+  },
+  "about.why.practical.text": {
+    "message": "Toate cursurile includ laboratoare practice si scenarii reale"
+  },
+  "about.why.success.label": {
+    "message": "Succes la certificare:"
+  },
+  "about.why.success.text": {
+    "message": "Rezultate dovedite in pregatirea cursantilor pentru examenele CKA si CKAD"
+  },
+  "about.why.small.label": {
+    "message": "Grupe mici:"
+  },
+  "about.why.small.text": {
+    "message": "Atentie personalizata si un mediu de invatare interactiv"
+  },
+  "about.why.flexible.label": {
+    "message": "Invatare flexibila:"
+  },
+  "about.why.flexible.text": {
+    "message": "Mai multe formate de curs, potrivite programului si stilului tau de invatare"
+  },
+  "about.instructors.heading": {
+    "message": "Instructorii nostri"
+  },
+  "about.instructors.text": {
+    "message": "Echipa noastra este formata din administratori si dezvoltatori Kubernetes certificati, care au implementat si administrat clustere Kubernetes in productie, in diverse industrii. Ei aduc in fiecare sesiune de curs experienta reala si bune practici."
+  },
+  "about.approach.heading": {
+    "message": "Abordarea noastra"
+  },
+  "about.approach.text": {
+    "message": "Credem in invatarea prin practica. Cursurile noastre combina fundamentele teoretice cu multa practica. Cursantii lucreaza pe clustere Kubernetes reale, depaneaza probleme reale si realizeaza proiecte care reproduc scenarii din productie."
+  },
+  "certifications.hero.title": {
+    "message": "Trasee de certificare Kubernetes"
+  },
+  "certifications.hero.subtitle": {
+    "message": "Un ghid vizual pentru rolurile de Platform Engineer, Developer si Security din cloud native, si cursul care te pregateste pentru fiecare examen."
+  },
+  "certifications.map.eyebrow": {
+    "message": "Harta certificarilor"
+  },
+  "certifications.map.title": {
+    "message": "Structura CNCF si nivelurile de competenta"
+  },
+  "certifications.map.formatNote": {
+    "message": "KCNA este un examen online, cu raspunsuri multiple. CKA, CKAD si CKS sunt examene online practice: rezolvi sarcini pe clustere Kubernetes reale."
+  },
+  "certifications.foundation.architecture.title": {
+    "message": "Arhitectura Kubernetes"
+  },
+  "certifications.foundation.architecture.text": {
+    "message": "Fundamentele orchestrarii containerelor: control plane, noduri, Pods, Services, Deployments."
+  },
+  "certifications.foundation.ecosystem.title": {
+    "message": "Ecosistemul cloud-native"
+  },
+  "certifications.foundation.ecosystem.text": {
+    "message": "Examenul acopera si observabilitatea, GitOps si livrarea continua."
+  },
+  "certifications.foundation.readiness.title": {
+    "message": "Pregatire strategica"
+  },
+  "certifications.foundation.readiness.text": {
+    "message": "Punctul de plecare ideal catre CKA sau CKAD."
+  },
+  "certifications.foundation.eyebrow": {
+    "message": "Nivel Associate • Recomandat"
+  },
+  "certifications.foundation.title": {
+    "message": "Fundamente cloud-native (KCNA)"
+  },
+  "certifications.foundation.prepCourse": {
+    "message": "Curs de pregatire:"
+  },
+  "certifications.days2": {
+    "message": "2 zile"
+  },
+  "certifications.paths.eyebrow": {
+    "message": "Specializare tehnica"
+  },
+  "certifications.paths.title": {
+    "message": "Traseul de administrator vs. traseul de developer"
+  },
+  "certifications.paths.admin": {
+    "message": "Traseul de administrator"
+  },
+  "certifications.badge.requiredForCks": {
+    "message": "Obligatoriu pentru CKS"
+  },
+  "certifications.paths.admin.infra.label": {
+    "message": "Infrastructura:"
+  },
+  "certifications.paths.admin.infra.text": {
+    "message": "instalarea si configurarea clusterului."
+  },
+  "certifications.paths.admin.ops.label": {
+    "message": "Operare:"
+  },
+  "certifications.paths.admin.ops.text": {
+    "message": "retelistica, stocare si depanare."
+  },
+  "certifications.paths.courses": {
+    "message": "Cursuri:"
+  },
+  "certifications.paths.then": {
+    "message": "apoi"
+  },
+  "certifications.paths.dev": {
+    "message": "Traseul de developer"
+  },
+  "certifications.badge.recommended": {
+    "message": "Recomandat"
+  },
+  "certifications.paths.dev.apps.label": {
+    "message": "Aplicatii:"
+  },
+  "certifications.paths.dev.apps.text": {
+    "message": "proiectarea si livrarea de microservicii."
+  },
+  "certifications.paths.dev.config.label": {
+    "message": "Configurare:"
+  },
+  "certifications.paths.dev.config.text": {
+    "message": "Pods, ConfigMaps si Secrets."
+  },
+  "certifications.paths.course": {
+    "message": "Curs:"
+  },
+  "certifications.security.step1": {
+    "message": "Fundamentul KCNA"
+  },
+  "certifications.security.step2": {
+    "message": "Prerechizitul CKA"
+  },
+  "certifications.days3": {
+    "message": "3 zile"
+  },
+  "certifications.security.step3": {
+    "message": "Certificarea CKS"
+  },
+  "certifications.security.eyebrow": {
+    "message": "Securitate avansata"
+  },
+  "certifications.security.title": {
+    "message": "Drumul catre Security Specialist (CKS)"
+  },
+  "certifications.security.course": {
+    "message": "Curs: {course} ({days})"
+  },
+  "certifications.plan.foundation": {
+    "message": "Fundamente cloud-native"
+  },
+  "certifications.plan.platform": {
+    "message": "Traseul Platform Engineer"
+  },
+  "certifications.plan.developer": {
+    "message": "Traseul de developer"
+  },
+  "certifications.plan.security": {
+    "message": "Securitate (necesita CKA)"
+  },
+  "certifications.plan.eyebrow": {
+    "message": "Planul de pregatire"
+  },
+  "certifications.plan.title": {
+    "message": "Corespondenta dintre cursuri si certificarile CNCF"
+  },
+  "certifications.plan.col.course": {
+    "message": "Curs"
+  },
+  "certifications.plan.col.duration": {
+    "message": "Durata"
+  },
+  "certifications.plan.col.certification": {
+    "message": "Certificarea vizata"
+  },
+  "certifications.plan.col.path": {
+    "message": "Rol / traseu"
+  },
+  "certifications.cta.title": {
+    "message": "Alege-ti traseul de certificare"
+  },
+  "certifications.cta.text": {
+    "message": "Urmeaza cursurile dedicate si obtine certificarea KCNA, CKA, CKAD sau CKS."
+  },
+  "certifications.cta.courses": {
+    "message": "Vezi cursurile"
+  },
+  "certifications.cta.contact": {
+    "message": "Contacteaza-ne"
+  },
+  "certifications.title": {
+    "message": "Trasee de certificare Kubernetes"
+  },
+  "certifications.description": {
+    "message": "KCNA, CKA, CKAD si CKS: traseele de certificare Kubernetes CNCF pentru Platform Engineers, Developers si specialisti in securitate, si cursurile care te pregatesc pentru fiecare examen."
+  },
+  "contact.title": {
+    "message": "Contact Q.E.D."
+  },
+  "contact.description": {
+    "message": "Contacteaza Q.E.D. pentru informatii despre cursuri, programare si inscriere."
+  },
+  "contact.heading": {
+    "message": "Contacteaza-ne"
+  },
+  "contact.intro": {
+    "message": "Vrei sa-ti dezvolti abilitatile Kubernetes? Scrie-ne pentru a afla mai multe despre programele noastre de curs, despre urmatoarele sesiuni sau pentru a discuta despre cursuri personalizate pentru organizatia ta."
+  },
+  "contact.inquiries.heading": {
+    "message": "Informatii despre cursuri"
+  },
+  "contact.email": {
+    "message": "Email:"
+  },
+  "contact.phone": {
+    "message": "Telefon:"
+  },
+  "contact.schedules.heading": {
+    "message": "Programul cursurilor"
+  },
+  "contact.schedules.text": {
+    "message": "Afla datele urmatoarelor sesiuni, locurile disponibile si preturile."
+  },
+  "contact.schedules.custom": {
+    "message": "Cursuri personalizate pentru companii"
+  },
+  "contact.enterprise.heading": {
+    "message": "Cursuri pentru companii"
+  },
+  "contact.hours.heading": {
+    "message": "Program"
+  },
+  "contact.hours.weekdays": {
+    "message": "Luni - Vineri:"
+  },
+  "contact.hours.weekdays.time": {
+    "message": "09:00 - 18:00 EST"
+  },
+  "contact.hours.saturday": {
+    "message": "Sambata:"
+  },
+  "contact.hours.saturday.time": {
+    "message": "10:00 - 16:00 EST"
+  },
+  "contact.hours.sunday": {
+    "message": "Duminica:"
+  },
+  "contact.hours.closed": {
+    "message": "Inchis"
+  },
+  "contact.start.heading": {
+    "message": "Incepe chiar azi"
+  },
+  "contact.start.intro": {
+    "message": "Esti gata sa incepi drumul in Kubernetes? Iata cum:"
+  },
+  "contact.start.choose.label": {
+    "message": "Alege cursul:"
+  },
+  "contact.start.choose.text": {
+    "message": "Consulta oferta noastra si alege cursul potrivit nivelului si obiectivelor tale"
+  },
+  "contact.start.schedule.label": {
+    "message": "Verifica programul:"
+  },
+  "contact.start.schedule.text": {
+    "message": "Contacteaza-ne pentru datele urmatoarelor sesiuni si locurile disponibile"
+  },
+  "contact.start.enroll.label": {
+    "message": "Inscrie-te:"
+  },
+  "contact.start.enroll.text": {
+    "message": "Rezerva-ti locul printr-un proces simplu de inscriere"
+  },
+  "contact.start.prepare.label": {
+    "message": "Pregateste-te:"
+  },
+  "contact.start.prepare.text": {
+    "message": "Primesti materialele pregatitoare si instructiunile de configurare"
+  },
+  "contact.start.learn.label": {
+    "message": "Invata:"
+  },
+  "contact.start.learn.text": {
+    "message": "Participa la sesiunile sustinute de experti si la laboratoarele practice"
+  },
+  "contact.form.heading": {
+    "message": "Contact rapid"
+  },
+  "contact.form.intro": {
+    "message": "Pentru un raspuns rapid, scrie-ne la {email} si include:"
+  },
+  "contact.form.name": {
+    "message": "Numele tau si organizatia"
+  },
+  "contact.form.course": {
+    "message": "Cursul care te intereseaza"
+  },
+  "contact.form.dates": {
+    "message": "Perioada preferata pentru curs"
+  },
+  "contact.form.participants": {
+    "message": "Numarul de participanti (pentru cursuri de grup)"
+  },
+  "contact.form.requirements": {
+    "message": "Orice cerinte sau intrebari specifice"
+  },
+  "contact.form.response": {
+    "message": "Iti raspundem in 24 de ore cu toate detaliile si pasii urmatori."
+  },
+  "home.tagline": {
+    "message": "Cursuri profesionale Kubernetes si certificare in era AI"
+  },
+  "home.button.courses": {
+    "message": "Vezi cursurile"
+  },
+  "home.button.certifications": {
+    "message": "Trasee de certificare"
+  },
+  "home.button.getStarted": {
+    "message": "Incepe acum"
+  },
+  "home.title": {
+    "message": "Bine ai venit la Q.E.D."
+  },
+  "home.description": {
+    "message": "Cursuri profesionale Kubernetes si pregatire pentru certificare. Invata orchestrarea containerelor prin practica, alaturi de experti din industrie."
+  },
+  "news.title": {
+    "message": "Ultimele stiri si noutati"
+  },
+  "news.description": {
+    "message": "Afla ultimele noutati din comunitatea cloud-native si Kubernetes"
+  },
+  "news.heading": {
+    "message": "Ultimele stiri si noutati"
+  },
+  "news.intro": {
+    "message": "Fii la curent cu ultimele evolutii din ecosistemul Kubernetes si cloud-native. Urmareste noutatile de la Cloud Native Computing Foundation."
+  },
+  "news.feed.heading": {
+    "message": "Noutati de la Cloud Native Computing Foundation"
+  },
+  "news.feed.follow": {
+    "message": "Urmareste {handle} pentru ultimele stiri, anunturi si noutati din comunitatea CNCF."
+  },
+  "news.resources.heading": {
+    "message": "Resurse de invatare"
+  },
+  "news.resources.k8sBlog": {
+    "message": "Blogul oficial Kubernetes"
+  },
+  "news.resources.cncfBlog": {
+    "message": "Blogul CNCF"
+  },
+  "news.resources.k8sDocs": {
+    "message": "Documentatia Kubernetes"
+  },
+  "news.certifications.heading": {
+    "message": "Noutati despre certificari"
+  },
+  "news.certifications.current": {
+    "message": "Certificari actuale:"
+  },
+  "news.courses.heading": {
+    "message": "Cursurile noastre"
+  },
+  "news.courses.intro": {
+    "message": "Invata Kubernetes la cursurile sustinute de experti:"
+  },
+  "news.courses.days2": {
+    "message": "2 zile"
+  },
+  "news.courses.days3": {
+    "message": "3 zile"
+  },
+  "news.courses.getStarted": {
+    "message": "Incepe acum"
+  },
+  "features.expert.title": {
+    "message": "Cursuri sustinute de experti"
+  },
+  "features.expert.tag": {
+    "message": "Practicieni, nu prezentatori"
+  },
+  "features.expert.imageAlt": {
+    "message": "Instructor care explica un cluster Kubernetes, cu un asistent AI"
+  },
+  "features.expert.description": {
+    "message": "Inveti de la ingineri certificati care ruleaza Kubernetes in productie si lucreaza zilnic cu agenti AI. Intelegi rationamentul din spatele fiecarei comenzi si stii cand sa ai incredere in sugestia unui agent si cand nu."
+  },
+  "features.handson.title": {
+    "message": "Invatare practica"
+  },
+  "features.handson.tag": {
+    "message": "Clustere reale, agenti reali"
+  },
+  "features.handson.imageAlt": {
+    "message": "Terminal care ruleaza kubectl, langa un panou cu un agent AI si un cluster"
+  },
+  "features.handson.description": {
+    "message": "Exersezi pe clustere si scenarii Kubernetes reale. Castigi incredere prin laboratoare interactive care simuleaza provocari si solutii din productie."
+  },
+  "features.certification.title": {
+    "message": "Pregatit pentru certificare"
+  },
+  "features.certification.imageAlt": {
+    "message": "Certificat cu sigiliu si insignele KCNA, CKA, CKAD si CKS"
+  },
+  "features.certification.description": {
+    "message": "Te pregatesti pentru certificarile CNCF cu materiale dedicate si examene de proba. Examenele sunt practice si se rezolva fara ajutorul AI, asa ca iti construiesti abilitati pe care te poti baza singur, si inveti sa le multiplici cu agenti la locul de munca. Avanseaza in cariera cu certificari recunoscute in industrie."
+  },
+  "certMap.badge.recommendedStart": {
+    "message": "Start recomandat"
+  },
+  "certMap.days2": {
+    "message": "2 zile"
+  },
+  "certMap.badge.requiredForCks": {
+    "message": "Obligatoriu pentru CKS"
+  },
+  "certMap.days3": {
+    "message": "3 zile"
+  },
+  "certMap.badge.recommended": {
+    "message": "Recomandat"
+  },
+  "certMap.course": {
+    "message": "Curs: {course} ({days})"
+  },
+  "certMap.legend.required": {
+    "message": "Obligatoriu"
+  },
+  "certMap.legend.recommended": {
+    "message": "Recomandat"
+  },
+  "certMap.level.associate": {
+    "message": "Associate"
+  },
+  "certMap.level.professional": {
+    "message": "Professional"
+  },
+  "certMap.path.platform": {
+    "message": "Traseul Platform Engineer"
+  },
+  "certMap.path.developer": {
+    "message": "Traseul de developer"
+  },
+  "certMap.level.specialist": {
+    "message": "Specialist"
+  },
+  "certMap.note.cks": {
+    "message": "CKS poate fi sustinut doar dupa promovarea CKA."
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "Aceasta pagina s-a blocat.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Inapoi sus",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "Arhiva",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Arhiva",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Navigare in lista de articole",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Articole mai noi",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Articole mai vechi",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Navigare intre articole",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Articolul mai nou",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Articolul mai vechi",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Vezi toate etichetele",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "modul sistem",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "modul luminos",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "modul intunecat",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Comuta intre modul intunecat si cel luminos (acum {mode})",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 element|{count} elemente",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Breadcrumbs",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Pagini",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Anterior",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Urmator",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "O pagina etichetata|{count} pagini etichetate",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} cu \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Aceasta este documentatia nepublicata pentru {siteTitle}, versiunea {versionLabel}.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Aceasta este documentatia pentru {siteTitle} {versionLabel}, care nu mai este intretinuta.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "Pentru documentatia actuala, vezi {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "ultima versiune",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Versiune: {versionLabel}"
+  },
+  "theme.common.editThisPage": {
+    "message": "Editeaza aceasta pagina",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Link direct catre {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " pe {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " de {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Ultima actualizare{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versiuni",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.NotFound.title": {
+    "message": "Pagina nu a fost gasita",
+    "description": "The title of the 404 page"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Etichete:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.admonition.caution": {
+    "message": "atentie",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "pericol",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "info",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "nota",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "sfat",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "avertisment",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Inchide",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Navigare prin articolele recente",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Extinde categoria '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Restrange categoria '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(se deschide intr-un tab nou)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Principal",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Limbi",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.NotFound.p1": {
+    "message": "Nu am gasit ce cautai.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Te rugam sa anunti proprietarul site-ului care te-a trimis aici ca link-ul nu mai functioneaza.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "Pe aceasta pagina",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Citeste mai mult",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Citeste mai mult despre {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "Un minut de citit|{readingTime} minute de citit",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Copiaza",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Copiat",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Copiaza codul",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Comuta incadrarea textului",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Pagina principala",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Restrange bara laterala",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Restrange bara laterala",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Bara laterala",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Inchide meniul",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Inapoi la meniul principal",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Deschide/inchide meniul",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Extinde lista",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Restrange lista",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Extinde bara laterala",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Extinde bara laterala",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.blog.post.plurals": {
+    "message": "Un articol|{count} articole",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} etichetate cu \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Autori",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "Vezi toti autorii",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "Acest autor nu a scris inca niciun articol.",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Pagina nelistata",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "Aceasta pagina nu este listata. Motoarele de cautare nu o indexeaza si doar cei care au link-ul direct o pot accesa.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Pagina ciorna",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "Aceasta pagina este o ciorna. Este vizibila doar in modul de dezvoltare si nu apare in build-ul de productie.",
+    "description": "The draft content banner message"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Incearca din nou",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Sari la continutul principal",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Etichete",
+    "description": "The title of the tag list page"
+  }
+}
