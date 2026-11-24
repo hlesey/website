@@ -42,6 +42,29 @@ const config: Config = {
     },
   },
 
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {type: 'application/ld+json'},
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'EducationalOrganization',
+        '@id': 'https://qedzone.ro/#organization',
+        name: 'Q.E.D.',
+        url: 'https://qedzone.ro/',
+        logo: 'https://qedzone.ro/img/qed-logo.png',
+        description:
+          'Kubernetes and AI agents training: hands-on courses preparing for the CNCF KCNA, CKA, CKAD and CKS certifications, in person in Bucharest or live online for Europe and the US.',
+        email: 'contact@qedzone.ro',
+        telephone: '+40 725 347 822',
+        address: {'@type': 'PostalAddress', addressLocality: 'Bucharest', addressCountry: 'RO'},
+        areaServed: ['Europe', 'United States'],
+        knowsLanguage: ['ro', 'en'],
+        knowsAbout: ['Kubernetes', 'AI agents', 'Cloud Native', 'Platform Engineering', 'Kubernetes Security', 'KCNA', 'CKA', 'CKAD', 'CKS'],
+      }),
+    },
+  ],
+
   presets: [
     [
       'classic',
@@ -49,17 +72,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -68,8 +81,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/qed-social-card.png',
     colorMode: {
       defaultMode: 'light',
       disableSwitch: true,

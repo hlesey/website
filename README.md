@@ -62,6 +62,13 @@ The site is in English (`/`) and Romanian (`/ro/`), with a language switcher in 
 - After adding new strings, run `npm run write-translations -- --locale ro` and fill in the new entries.
 - `scripts/check-i18n.sh` checks a build (`npm run build`) for both languages.
 
+## SEO
+
+- `static/robots.txt` allows search engines and AI crawlers; `static/llms.txt` is a plain summary for AI assistants. Keep `llms.txt` in sync when courses change.
+- Company structured data is in `headTags` in `docusaurus.config.ts`; course pages use `CourseSchema` and `CourseFaq` (`src/components/`).
+- `static/img/qed-social-card.png` is the preview image for shared links.
+- `make check-seo` builds the site and checks titles, descriptions, structured data and crawler files.
+
 ### Build
 
 ```bash

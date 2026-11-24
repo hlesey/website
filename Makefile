@@ -1,6 +1,6 @@
 # Q.E.D. Website Makefile
 
-.PHONY: help install run run-ro build check-i18n serve clean deploy
+.PHONY: help install run run-ro build check-i18n check-seo serve clean deploy
 
 # Default target
 help:
@@ -12,6 +12,7 @@ help:
 	@echo "  run-ro     Run development server in Romanian"
 	@echo "  build      Build production website"
 	@echo "  check-i18n Build and check the English/Romanian setup"
+	@echo "  check-seo  Build and check SEO metadata"
 	@echo "  serve      Serve built website locally"
 	@echo "  clean      Clean build files and node_modules"
 	@echo "  deploy     Deploy to production"
@@ -37,6 +38,11 @@ run-ro:
 # Build and check both languages
 check-i18n: build
 	./scripts/check-i18n.sh
+
+# Build and check SEO metadata
+check-seo: build
+	node scripts/check-seo.mjs
+
 # Build production website
 build:
 	@echo "Building production website..."
