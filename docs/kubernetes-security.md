@@ -211,7 +211,7 @@ To get the most out of this course, you should have:
 
 **Lab:** Solve real Kubernetes security challenges in a 2h "Capture the Flag" session
 
-## Frequently asked questions {#faq}
+## Frequently asked questions {/* #faq */}
 
 <CourseFaq
   items={[

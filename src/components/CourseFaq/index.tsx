@@ -4,7 +4,7 @@ import Heading from '@theme/Heading';
 
 type FaqItem = {question: string; answer: string};
 
-/** FAQ items and their FAQPage structured data. The page provides the "## ... {#faq}" heading. */
+/** FAQ items and their FAQPage structured data. The page provides the FAQ heading with the "faq" id. */
 export default function CourseFaq({items}: {items: FaqItem[]}): ReactNode {
   const data = {
     '@context': 'https://schema.org',

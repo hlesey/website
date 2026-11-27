@@ -211,7 +211,7 @@ Pentru a profita la maximum de acest curs, ar trebui sa ai:
 
 **Lab:** Solve real Kubernetes security challenges in a 2h "Capture the Flag" session
 
-## Intrebari frecvente {#faq}
+## Intrebari frecvente {/* #faq */}
 
 <CourseFaq
   items={[

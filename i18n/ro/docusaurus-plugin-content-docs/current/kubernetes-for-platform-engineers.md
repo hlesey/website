@@ -2,7 +2,7 @@
 sidebar_position: 3
 sidebar_label: Kubernetes for Platform Engineers
 title: "Kubernetes for Platform Engineers – CKA si agenti AI"
-description: "Kubernetes for Platform Engineers: curs practic de 3 zile pentru pregatirea CKA, despre workload-uri, retea, RBAC, multitenancy, kubeadm, observabilitate si clustere cu agenti AI."
+description: "Kubernetes for Platform Engineers: curs practic de 3 zile pentru pregatirea CKA, despre retea, RBAC, multitenancy, kubeadm, observabilitate si agenti AI."
 ---
 
 import CourseSchema from '@site/src/components/CourseSchema';
@@ -12,7 +12,7 @@ import CourseFaq from '@site/src/components/CourseFaq';
   name="Kubernetes for Platform Engineers"
   hours={24}
   level="Intermediate to advanced"
-  teaches={["Retelistica Kubernetes si Network Policies", "RBAC si controlul accesului", "Helm", "Initializarea clusterului cu kubeadm", "Observabilitate si depanare", "Operarea clusterelor Kubernetes cu agenti AI", "Pregatire pentru examenul CKA"]}
+  teaches={["Services si Gateway API", "Deployments, DaemonSets si StatefulSets", "Retelistica Kubernetes si Network Policies", "RBAC si controlul accesului", "Multitenancy", "Initializarea clusterului cu kubeadm", "Observabilitate si depanare", "Operarea clusterelor Kubernetes cu agenti AI", "Pregatire pentru examenul CKA"]}
 />
 
 # Kubernetes for Platform Engineers
@@ -198,7 +198,7 @@ Pentru a profita la maximum de acest curs, ar trebui sa ai:
 
 **Lab:** Solve real Kubernetes application challenges in a 2h "Capture the Flag" session
 
-## Intrebari frecvente {#faq}
+## Intrebari frecvente {/* #faq */}
 
 <CourseFaq
   items={[

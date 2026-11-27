@@ -2,7 +2,7 @@
 sidebar_position: 2
 sidebar_label: Kubernetes Fundamentals
 title: "Curs Kubernetes Fundamentals – pregatire KCNA"
-description: "Kubernetes Fundamentals: curs practic de 2 zile despre Docker, arhitectura Kubernetes, Pods, Deployments, persistenta si configurare, care te pregateste pentru examenul KCNA."
+description: "Kubernetes Fundamentals: curs practic de 2 zile despre Docker, arhitectura Kubernetes, Pods, Deployments si ConfigMaps, care te pregateste pentru examenul KCNA."
 ---
 
 import CourseSchema from '@site/src/components/CourseSchema';
@@ -12,7 +12,7 @@ import CourseFaq from '@site/src/components/CourseFaq';
   name="Kubernetes Fundamentals"
   hours={16}
   level="Beginner to intermediate"
-  teaches={["Docker si containere", "Arhitectura si API-ul Kubernetes", "Pods, Services si Deployments", "Persistenta in Kubernetes", "Pregatire pentru examenul KCNA"]}
+  teaches={["Docker si containere", "Arhitectura si API-ul Kubernetes", "Pods si Deployments", "Persistenta in Kubernetes", "ConfigMaps si Secrets", "Pregatire pentru examenul KCNA"]}
 />
 
 # Kubernetes Fundamentals
@@ -151,7 +151,7 @@ Pentru a profita la maximum de acest curs, ar trebui sa ai:
 
 **Lab:** Use secrets and ConfigMaps to decouple configuration for an existing application deployed on a Kubernetes cluster
 
-## Intrebari frecvente {#faq}
+## Intrebari frecvente {/* #faq */}
 
 <CourseFaq
   items={[

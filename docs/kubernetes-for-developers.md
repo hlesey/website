@@ -12,7 +12,7 @@ import CourseFaq from '@site/src/components/CourseFaq';
   name="Kubernetes for Developers"
   hours={24}
   level="Beginner to intermediate"
-  teaches={["Deploying applications on Kubernetes", "Multi-container Pod design", "Configuration and persistence", "Helm", "Deployment strategies", "Observability and troubleshooting", "Building and deploying with AI agents", "CKAD exam preparation"]}
+  teaches={["Deploying applications on Kubernetes", "Multi-container Pod design", "Jobs and CronJobs", "Configuration and persistence", "Helm", "Deployment strategies", "Observability and troubleshooting", "Building and deploying with AI agents", "CKAD exam preparation"]}
 />
 
 # Kubernetes for Developers
@@ -197,7 +197,7 @@ To get the most out of this course, you should have:
 
 **Lab:** Solve real Kubernetes application challenges in a 2h "Capture the Flag" session
 
-## Frequently asked questions {#faq}
+## Frequently asked questions {/* #faq */}
 
 <CourseFaq
   items={[

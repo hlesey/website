@@ -2,7 +2,7 @@
 sidebar_position: 3
 sidebar_label: Kubernetes for Platform Engineers
 title: "Kubernetes for Platform Engineers – CKA & AI Agents"
-description: "Kubernetes for Platform Engineers: a 3-day hands-on CKA prep course on workloads, networking, RBAC, multitenancy, kubeadm, observability and operating clusters with AI agents."
+description: "Kubernetes for Platform Engineers: a 3-day hands-on CKA prep course on networking, RBAC, multitenancy, kubeadm, observability and AI agents on clusters."
 ---
 
 import CourseSchema from '@site/src/components/CourseSchema';
@@ -12,7 +12,7 @@ import CourseFaq from '@site/src/components/CourseFaq';
   name="Kubernetes for Platform Engineers"
   hours={24}
   level="Intermediate to advanced"
-  teaches={["Kubernetes networking and Network Policies", "RBAC and access control", "Helm", "Cluster bootstrap with kubeadm", "Observability and troubleshooting", "Operating Kubernetes clusters with AI agents", "CKA exam preparation"]}
+  teaches={["Services and Gateway API", "Deployments, DaemonSets and StatefulSets", "Kubernetes networking and Network Policies", "RBAC and access control", "Multitenancy", "Cluster bootstrap with kubeadm", "Observability and troubleshooting", "Operating Kubernetes clusters with AI agents", "CKA exam preparation"]}
 />
 
 # Kubernetes for Platform Engineers
@@ -198,7 +198,7 @@ To get the most out of this course, you should have:
 
 **Lab:** Solve real Kubernetes application challenges in a 2h "Capture the Flag" session
 
-## Frequently asked questions {#faq}
+## Frequently asked questions {/* #faq */}
 
 <CourseFaq
   items={[

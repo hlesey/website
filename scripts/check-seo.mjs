@@ -29,14 +29,16 @@ function htmlFiles(dir) {
   });
 }
 
+// Attribute value with or without quotes (the 3.10 minifier drops them when it can)
+const attr = (v) => v.replace(/^"|"$/g, '');
 const jsonLd = (html) =>
-  [...html.matchAll(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].map((m) =>
+  [...html.matchAll(/<script[^>]*type="?application\/ld\+json"?[^>]*>([\s\S]*?)<\/script>/g)].map((m) =>
     JSON.parse(m[1]),
   );
 const hasType = (html, type) => jsonLd(html).some((o) => [o['@type']].flat().includes(type));
 const title = (html) => html.match(/<title[^>]*>([^<]*)<\/title>/)[1].replace(/&amp;/g, '&');
 const description = (html) =>
-  html.match(/<meta[^>]*name="description"[^>]*content="([^"]*)"/)[1].replace(/&amp;/g, '&');
+  attr(html.match(/<meta[^>]*name="?description"?[^>]*content=("[^"]*"|[^\s>]+)/)[1]).replace(/&amp;/g, '&');
 const descOk = (html) => {
   const n = description(html).length;
   return n >= 120 && n <= 160;
@@ -59,7 +61,7 @@ check('social card is a 1200x630 PNG', () => {
   return b.readUInt32BE(16) === 1200 && b.readUInt32BE(20) === 630;
 });
 check('home uses the social card', () =>
-  /property="og:image" content="[^"]*qed-social-card\.png"/.test(page('')),
+  /property="?og:image"? content="?[^"\s>]*qed-social-card\.png/.test(page('')),
 );
 
 // Clean index
@@ -75,7 +77,7 @@ for (const sitemap of ['build/sitemap.xml', 'build/ro/sitemap.xml']) {
 }
 check('canonical URLs end with "/"', () =>
   ['', 'ro/', 'about', 'docs/kubernetes-security', 'ro/docs/kubernetes-security'].every((p) =>
-    page(p).match(/rel="canonical" href="(https:\/\/qedzone\.ro\/[^"]*)"/)[1].endsWith('/'),
+    attr(page(p).match(/rel="?canonical"? href=("?https:\/\/qedzone\.ro\/[^"\s>]*"?)/)[1]).endsWith('/'),
   ),
 );
 check('llms.txt links end with "/"', () =>
@@ -115,7 +117,7 @@ for (const [locale, faq] of [
     check(`/${p} has FAQPage data`, () => hasType(page(p), 'FAQPage'));
     check(`/${p} shows "${faq}"`, () => page(p).includes(faq));
     check(`/${p} lists the FAQ in the table of contents`, () =>
-      /class="table-of-contents__link[^"]*" href="#faq"|href="#faq" class="table-of-contents__link/.test(page(p)),
+      /class="?table-of-contents__link[^>]*href="?#faq"?[\s>]|href="?#faq"? class="?table-of-contents__link/.test(page(p)),
     );
     check(`/${p} title is at most 62 chars`, () => title(page(p)).length <= 62);
     check(`/${p} description is 120-160 chars`, () => descOk(page(p)));

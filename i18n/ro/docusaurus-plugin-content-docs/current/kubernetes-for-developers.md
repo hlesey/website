@@ -12,7 +12,7 @@ import CourseFaq from '@site/src/components/CourseFaq';
   name="Kubernetes for Developers"
   hours={24}
   level="Beginner to intermediate"
-  teaches={["Livrarea aplicatiilor pe Kubernetes", "Pods cu mai multe containere", "Configurare si persistenta", "Helm", "Strategii de livrare", "Observabilitate si depanare", "Construirea si livrarea aplicatiilor cu agenti AI", "Pregatire pentru examenul CKAD"]}
+  teaches={["Livrarea aplicatiilor pe Kubernetes", "Pods cu mai multe containere", "Jobs si CronJobs", "Configurare si persistenta", "Helm", "Strategii de livrare", "Observabilitate si depanare", "Construirea si livrarea aplicatiilor cu agenti AI", "Pregatire pentru examenul CKAD"]}
 />
 
 # Kubernetes for Developers
@@ -197,7 +197,7 @@ Pentru a profita la maximum de acest curs, ar trebui sa ai:
 
 **Lab:** Solve real Kubernetes application challenges in a 2h "Capture the Flag" session
 
-## Intrebari frecvente {#faq}
+## Intrebari frecvente {/* #faq */}
 
 <CourseFaq
   items={[

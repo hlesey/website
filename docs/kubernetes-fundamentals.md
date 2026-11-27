@@ -2,7 +2,7 @@
 sidebar_position: 2
 sidebar_label: Kubernetes Fundamentals
 title: "Kubernetes Fundamentals Course – KCNA Preparation"
-description: "Kubernetes Fundamentals: a 2-day hands-on course on Docker, Kubernetes architecture, Pods, Services and Deployments that prepares you for the KCNA exam."
+description: "Kubernetes Fundamentals: a 2-day hands-on course on Docker, Kubernetes architecture, Pods, Deployments and ConfigMaps that prepares you for the KCNA exam."
 ---
 
 import CourseSchema from '@site/src/components/CourseSchema';
@@ -12,7 +12,7 @@ import CourseFaq from '@site/src/components/CourseFaq';
   name="Kubernetes Fundamentals"
   hours={16}
   level="Beginner to intermediate"
-  teaches={["Docker and containers", "Kubernetes architecture and API", "Pods, Services and Deployments", "Persistence in Kubernetes", "KCNA exam preparation"]}
+  teaches={["Docker and containers", "Kubernetes architecture and API", "Pods and Deployments", "Persistence in Kubernetes", "ConfigMaps and Secrets", "KCNA exam preparation"]}
 />
 
 # Kubernetes Fundamentals
@@ -151,7 +151,7 @@ To get the most out of this course, you should have:
 
 **Lab:** Use secrets and ConfigMaps to decouple configuration for an existing application deployed on a Kubernetes cluster
 
-## Frequently asked questions {#faq}
+## Frequently asked questions {/* #faq */}
 
 <CourseFaq
   items={[
