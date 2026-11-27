@@ -31,11 +31,11 @@ Prepares you for the [Certified Kubernetes Application Developer (CKAD)](https:/
 
 ## What You'll Learn
 
-- Kubernetes architecture
 - Deploy an application on Kubernetes
 - Understand multi-container pod design
 - Decouple application configuration
 - Add state persistence to your application
+- Run batch workloads with Jobs and CronJobs
 - Configure cluster authorization and access control
 - Autoscale your application based on compute metrics
 - Isolate workloads with Network Policies
@@ -85,14 +85,6 @@ To get the most out of this course, you should have:
 - Kubernetes certifications
 - Your practice environment
 
-#### Kubernetes architecture
-
-- Kubernetes adoption
-- Kubernetes features
-- Self-Healing
-
-**Lab:** Set up your Kubernetes lab cluster
-
 #### Pods
 
 - Pod manifest
@@ -123,6 +115,14 @@ To get the most out of this course, you should have:
 
 **Lab:** Deploy a real application on a Kubernetes cluster
 
+#### Jobs and CronJobs
+
+- Parallel and Non-parallel Jobs
+- Job Termination and Cleanup
+- Working with CronJobs
+
+**Lab:** Deploy short-lived applications using Jobs and CronJobs on a Kubernetes cluster
+
 ### Day 2
 
 #### Persistence in Kubernetes
@@ -133,7 +133,7 @@ To get the most out of this course, you should have:
 
 **Lab:** Add persistence to an existing application deployed on a Kubernetes cluster
 
-#### Kubernetes Configuration
+#### ConfigMaps and Secrets
 
 - ConfigMaps
 - Secrets
@@ -159,15 +159,6 @@ To get the most out of this course, you should have:
 - Helm Releases
 
 **Lab:** Deploy an application on a Kubernetes cluster using Helm
-
-#### Mastering kubectl
-
-- Configuration Best Practices
-- Kubeconfig
-- Kubectl Cheat Sheet
-- Kubectl explain
-
-**Lab:** Boost your kubectl productivity
 
 ### Day 3
 

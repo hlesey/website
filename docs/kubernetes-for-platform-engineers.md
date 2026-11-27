@@ -31,8 +31,9 @@ Together with [Kubernetes Fundamentals](./kubernetes-fundamentals.md), prepares 
 
 ## What You'll Learn
 
-- Decouple application configuration
-- Add state persistence to your application
+- Expose applications with Services and the Gateway API
+- Run node agents and stateful applications with DaemonSets and StatefulSets
+- Isolate tenants with namespaces, quotas and policies
 - Configure cluster authorization and access control
 - Autoscale your application based on compute metrics
 - Isolate workloads with Network Policies
@@ -82,6 +83,37 @@ To get the most out of this course, you should have:
 - Kubernetes certifications
 - Your practice environment
 
+#### Services and Load Balancing
+
+- Multi-Port Services
+- Service types
+- Cluster internal DNS
+- Gateway API
+- HTTPRoute
+
+**Lab:** Exposing your application inside and outside of a Kubernetes cluster
+
+#### ReplicaSets and Deployments
+
+- Controller Objects
+- ReplicaSets and Deployments
+- Taints and Tolerations
+- Deployment strategies
+- Autoscaling applications deployed on Kubernetes
+
+**Lab:** Deploy a real application on a Kubernetes cluster
+
+#### DaemonSets and StatefulSets
+
+- DaemonSet overview
+- DaemonSet vs Deployment
+- Manage DaemonSets
+- Stateful applications overview
+- Stateful vs Stateless applications
+- StatefulSets components
+
+**Lab:** Work with DaemonSets and deploy a stateful application on a Kubernetes cluster
+
 #### Advanced Kubernetes Networking
 
 - Networking implementation on Kubernetes
@@ -91,39 +123,6 @@ To get the most out of this course, you should have:
 - Isolate workloads with Network Policies
 
 **Lab:** Secure an application using network policies
-
-#### Kubernetes Configuration
-
-- ConfigMaps
-- Secrets
-- Secrets vs ConfigMaps
-- Encrypting secrets in etcd
-
-**Lab:** Use secrets and ConfigMaps to decouple configuration for an existing application deployed on a Kubernetes cluster
-
-#### DaemonSets
-
-- DaemonSet overview
-- DaemonSet vs Deployment
-- Manage DaemonSets
-
-**Lab:** Work with DaemonSets
-
-#### StatefulSets
-
-- Stateful applications overview
-- Stateful vs Stateless applications
-- StatefulSets components
-
-**Lab:** Deploy a stateful application on a Kubernetes cluster
-
-#### Jobs and CronJobs
-
-- Parallel and Non-parallel Jobs
-- Job Termination and Cleanup
-- Working with CronJobs
-
-**Lab:** Deploy short-lived applications using Jobs and CronJobs on a Kubernetes cluster
 
 ### Day 2
 
@@ -146,15 +145,7 @@ To get the most out of this course, you should have:
 
 **Lab:** Create a user with limited access on a Kubernetes namespace
 
-#### Package management with Helm
-
-- Helm Charts
-- Working with Chart Repositories
-- Helm Releases
-
-**Lab:** Deploy an application on a Kubernetes cluster using Helm
-
-#### Cluster Administration and Multitenancy
+#### Multi-Tenancy
 
 - Types of workloads
 - Managing compute allocation and quotas

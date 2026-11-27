@@ -32,7 +32,8 @@ Prepares you for the [Kubernetes and Cloud Native Associate (KCNA)](https://www.
 - Docker and Kubernetes architecture
 - Containerize and deploy an application on Kubernetes
 - Understand multi-container pod design
-- Implement services and load balancing
+- Decouple application configuration with ConfigMaps and Secrets
+- Add state persistence to your application
 - Autoscale your application based on compute metrics
 - And much more!
 
@@ -123,16 +124,6 @@ To get the most out of this course, you should have:
 
 **Lab:** Deploy, monitor and configure resource management for Pods
 
-#### Services and Load Balancing
-
-- Multi-Port Services
-- Service types
-- Cluster internal DNS
-- Gateway API
-- HTTPRoute
-
-**Lab:** Exposing your application inside and outside of a Kubernetes cluster
-
 #### ReplicaSets and Deployments
 
 - Controller Objects
@@ -150,6 +141,15 @@ To get the most out of this course, you should have:
 - Persistent Volume Claim
 
 **Lab:** Add persistence to an existing application deployed on a Kubernetes cluster
+
+#### ConfigMaps and Secrets
+
+- ConfigMaps
+- Secrets
+- Secrets vs ConfigMaps
+- Encrypting secrets in etcd
+
+**Lab:** Use secrets and ConfigMaps to decouple configuration for an existing application deployed on a Kubernetes cluster
 
 ## Frequently asked questions {#faq}
 

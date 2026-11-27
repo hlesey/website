@@ -17,7 +17,7 @@ Master Kubernetes with our expert-led, hands-on training courses designed for pr
 
 ### [Kubernetes Fundamentals - 2 Days](./kubernetes-fundamentals.md) 🚀
 
-Get started with containers and Kubernetes: Docker, Kubernetes architecture and API, Pods, Services, Deployments and persistence.
+Get started with containers and Kubernetes: Docker, Kubernetes architecture and API, Pods, Deployments, persistence, ConfigMaps and Secrets.
 
 **Certification:** KCNA (Kubernetes and Cloud Native Associate)  
 **Difficulty:** Beginner to intermediate  
@@ -25,7 +25,7 @@ Get started with containers and Kubernetes: Docker, Kubernetes architecture and 
 
 ### [Kubernetes for Platform Engineers - 3 Days](./kubernetes-for-platform-engineers.md) ⚙️
 
-Run Kubernetes in production: networking and Network Policies, workloads, RBAC, Helm, multitenancy, cluster bootstrap with kubeadm, observability, troubleshooting and operating clusters with AI agents.
+Run Kubernetes in production: Services and Gateway API, workloads (Deployments, DaemonSets, StatefulSets), networking and Network Policies, RBAC, multitenancy, cluster bootstrap with kubeadm, observability, troubleshooting and operating clusters with AI agents.
 
 **Certification:** CKA (Certified Kubernetes Administrator), together with Kubernetes Fundamentals  
 **Difficulty:** Intermediate to advanced  
@@ -33,7 +33,7 @@ Run Kubernetes in production: networking and Network Policies, workloads, RBAC, 
 
 ### [Kubernetes for Developers - 3 Days](./kubernetes-for-developers.md) 💻
 
-Build and deploy applications on Kubernetes: Pods, Services, Deployments, configuration, persistence, RBAC, Helm, deployment strategies, observability, troubleshooting and working with AI agents.
+Build and deploy applications on Kubernetes: Pods, Services, Deployments, Jobs and CronJobs, configuration, persistence, RBAC, Helm, deployment strategies, observability, troubleshooting and working with AI agents.
 
 **Certification:** CKAD (Certified Kubernetes Application Developer)  
 **Difficulty:** Beginner to intermediate  
