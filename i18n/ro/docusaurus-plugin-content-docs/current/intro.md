@@ -17,7 +17,7 @@ Invata Kubernetes la cursurile noastre practice, sustinute de experti, gandite p
 
 ### [Kubernetes Fundamentals - 2 zile](./kubernetes-fundamentals.md) 🚀
 
-Primii pasi cu containere si Kubernetes: Docker, arhitectura si API-ul Kubernetes, Pods, Services, Deployments si persistenta.
+Primii pasi cu containere si Kubernetes: Docker, arhitectura si API-ul Kubernetes, Pods, Deployments, persistenta, ConfigMaps si Secrets.
 
 **Certificare:** KCNA (Kubernetes and Cloud Native Associate)  
 **Dificultate:** Incepator spre intermediar  
@@ -25,7 +25,7 @@ Primii pasi cu containere si Kubernetes: Docker, arhitectura si API-ul Kubernete
 
 ### [Kubernetes for Platform Engineers - 3 zile](./kubernetes-for-platform-engineers.md) ⚙️
 
-Kubernetes in productie: retelistica si Network Policies, workload-uri, RBAC, Helm, multitenancy, initializarea clusterului cu kubeadm, observabilitate, depanare si operarea clusterelor cu agenti AI.
+Kubernetes in productie: Services si Gateway API, workload-uri (Deployments, DaemonSets, StatefulSets), retelistica si Network Policies, RBAC, multitenancy, initializarea clusterului cu kubeadm, observabilitate, depanare si operarea clusterelor cu agenti AI.
 
 **Certificare:** CKA (Certified Kubernetes Administrator), impreuna cu Kubernetes Fundamentals  
 **Dificultate:** Intermediar spre avansat  
@@ -33,7 +33,7 @@ Kubernetes in productie: retelistica si Network Policies, workload-uri, RBAC, He
 
 ### [Kubernetes for Developers - 3 zile](./kubernetes-for-developers.md) 💻
 
-Construiesti si livrezi aplicatii pe Kubernetes: Pods, Services, Deployments, configurare, persistenta, RBAC, Helm, strategii de livrare, observabilitate, depanare si lucrul cu agenti AI.
+Construiesti si livrezi aplicatii pe Kubernetes: Pods, Services, Deployments, Jobs si CronJobs, configurare, persistenta, RBAC, Helm, strategii de livrare, observabilitate, depanare si lucrul cu agenti AI.
 
 **Certificare:** CKAD (Certified Kubernetes Application Developer)  
 **Dificultate:** Incepator spre intermediar  

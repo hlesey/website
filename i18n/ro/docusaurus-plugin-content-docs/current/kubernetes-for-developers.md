@@ -31,11 +31,11 @@ Te pregateste pentru examenul [Certified Kubernetes Application Developer (CKAD)
 
 ## Ce vei invata
 
-- Arhitectura Kubernetes
 - Sa livrezi o aplicatie pe Kubernetes
 - Sa intelegi designul pod-urilor cu mai multe containere
 - Sa separi configuratia de aplicatie
 - Sa adaugi persistenta starii aplicatiei
+- Sa rulezi workload-uri batch cu Jobs si CronJobs
 - Sa configurezi autorizarea si controlul accesului in cluster
 - Sa scalezi automat aplicatia pe baza metricilor de calcul
 - Sa izolezi workload-urile cu Network Policies
@@ -85,14 +85,6 @@ Pentru a profita la maximum de acest curs, ar trebui sa ai:
 - Kubernetes certifications
 - Your practice environment
 
-#### Kubernetes architecture
-
-- Kubernetes adoption
-- Kubernetes features
-- Self-Healing
-
-**Lab:** Set up your Kubernetes lab cluster
-
 #### Pods
 
 - Pod manifest
@@ -123,6 +115,14 @@ Pentru a profita la maximum de acest curs, ar trebui sa ai:
 
 **Lab:** Deploy a real application on a Kubernetes cluster
 
+#### Jobs and CronJobs
+
+- Parallel and Non-parallel Jobs
+- Job Termination and Cleanup
+- Working with CronJobs
+
+**Lab:** Deploy short-lived applications using Jobs and CronJobs on a Kubernetes cluster
+
 ### Ziua 2
 
 #### Persistence in Kubernetes
@@ -133,7 +133,7 @@ Pentru a profita la maximum de acest curs, ar trebui sa ai:
 
 **Lab:** Add persistence to an existing application deployed on a Kubernetes cluster
 
-#### Kubernetes Configuration
+#### ConfigMaps and Secrets
 
 - ConfigMaps
 - Secrets
@@ -159,15 +159,6 @@ Pentru a profita la maximum de acest curs, ar trebui sa ai:
 - Helm Releases
 
 **Lab:** Deploy an application on a Kubernetes cluster using Helm
-
-#### Mastering kubectl
-
-- Configuration Best Practices
-- Kubeconfig
-- Kubectl Cheat Sheet
-- Kubectl explain
-
-**Lab:** Boost your kubectl productivity
 
 ### Ziua 3
 

@@ -2,7 +2,7 @@
 sidebar_position: 2
 sidebar_label: Kubernetes Fundamentals
 title: "Curs Kubernetes Fundamentals – pregatire KCNA"
-description: "Kubernetes Fundamentals: curs practic de 2 zile despre Docker, arhitectura Kubernetes, Pods, Services si Deployments, care te pregateste pentru examenul KCNA."
+description: "Kubernetes Fundamentals: curs practic de 2 zile despre Docker, arhitectura Kubernetes, Pods, Deployments, persistenta si configurare, care te pregateste pentru examenul KCNA."
 ---
 
 import CourseSchema from '@site/src/components/CourseSchema';
@@ -32,7 +32,8 @@ Te pregateste pentru examenul [Kubernetes and Cloud Native Associate (KCNA)](htt
 - Arhitectura Docker si Kubernetes
 - Sa containerizezi si sa livrezi o aplicatie pe Kubernetes
 - Sa intelegi designul pod-urilor cu mai multe containere
-- Sa implementezi servicii si load balancing
+- Sa separi configuratia de aplicatie cu ConfigMaps si Secrets
+- Sa adaugi persistenta starii aplicatiei
 - Sa scalezi automat aplicatia pe baza metricilor de calcul
 - Si multe altele!
 
@@ -123,16 +124,6 @@ Pentru a profita la maximum de acest curs, ar trebui sa ai:
 
 **Lab:** Deploy, monitor and configure resource management for Pods
 
-#### Services and Load Balancing
-
-- Multi-Port Services
-- Service types
-- Cluster internal DNS
-- Gateway API
-- HTTPRoute
-
-**Lab:** Exposing your application inside and outside of a Kubernetes cluster
-
 #### ReplicaSets and Deployments
 
 - Controller Objects
@@ -150,6 +141,15 @@ Pentru a profita la maximum de acest curs, ar trebui sa ai:
 - Persistent Volume Claim
 
 **Lab:** Add persistence to an existing application deployed on a Kubernetes cluster
+
+#### ConfigMaps and Secrets
+
+- ConfigMaps
+- Secrets
+- Secrets vs ConfigMaps
+- Encrypting secrets in etcd
+
+**Lab:** Use secrets and ConfigMaps to decouple configuration for an existing application deployed on a Kubernetes cluster
 
 ## Intrebari frecvente {#faq}
 

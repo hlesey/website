@@ -139,17 +139,7 @@ Pentru a profita la maximum de acest curs, ar trebui sa ai:
 
 **Lab:** Restrict a container using AppArmor and Seccomp profiles
 
-#### Pod Security Standards
-
-- Pod Security Admission (PSA) overview
-- Privileged, Baseline and Restricted security profiles
-- Enforcing, warning and auditing modes
-- Security Contexts: runAsNonRoot, readOnlyRootFilesystem, capabilities
-- Ensuring container immutability at runtime
-
-**Lab:** Enforce Pod Security Standards on a namespace
-
-#### Kubernetes Configuration
+#### ConfigMaps and Secrets
 
 - ConfigMaps
 - Secrets
@@ -166,14 +156,24 @@ Pentru a profita la maximum de acest curs, ar trebui sa ai:
 
 **Lab:** Scan images for vulnerabilities
 
-#### Runtime Security
+#### Admission Controllers & Policy Enforcement
 
-- Introduction to runtime investigation
-- Capturing container syscall activity
-- Analyzing container behavior for incident response
-- Introduction to Falco for runtime threat detection
+- Kubernetes Admission Controllers overview
+- ValidatingWebhookConfiguration and MutatingWebhookConfiguration
+- Configuring ImagePolicyWebhook admission controller
+- Enforcing security policies: required labels, allowed registries, pod security
 
-**Lab:** Investigate suspicious container activity and save incident logs
+**Lab:** Configure ImagePolicyWebhook and enforce admission policies
+
+#### Pod Security Standards
+
+- Pod Security Admission (PSA) overview
+- Privileged, Baseline and Restricted security profiles
+- Enforcing, warning and auditing modes
+- Security Contexts: runAsNonRoot, readOnlyRootFilesystem, capabilities
+- Ensuring container immutability at runtime
+
+**Lab:** Enforce Pod Security Standards on a namespace
 
 ### Ziua 3
 
@@ -187,22 +187,14 @@ Pentru a profita la maximum de acest curs, ar trebui sa ai:
 
 **Lab:** Use Prometheus to monitor Kubernetes components and configure audit logging
 
-#### Admission Controllers & Policy Enforcement
+#### Runtime Security
 
-- Kubernetes Admission Controllers overview
-- ValidatingWebhookConfiguration and MutatingWebhookConfiguration
-- Configuring ImagePolicyWebhook admission controller
-- Enforcing security policies: required labels, allowed registries, pod security
+- Introduction to runtime investigation
+- Capturing container syscall activity
+- Analyzing container behavior for incident response
+- Introduction to Falco for runtime threat detection
 
-**Lab:** Configure ImagePolicyWebhook and enforce admission policies
-
-#### Cluster Administration and Multitenancy
-
-- Types of workloads
-- Managing compute allocation and quotas
-- Defining policies for resource usage and workload isolation
-
-**Lab:** Isolate a namespace on a Kubernetes cluster
+**Lab:** Investigate suspicious container activity and save incident logs
 
 #### Interacting with Kubernetes using AI agents
 

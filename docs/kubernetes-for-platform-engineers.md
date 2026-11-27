@@ -2,7 +2,7 @@
 sidebar_position: 3
 sidebar_label: Kubernetes for Platform Engineers
 title: "Kubernetes for Platform Engineers – CKA & AI Agents"
-description: "Kubernetes for Platform Engineers: a 3-day hands-on CKA prep course on networking, RBAC, Helm, kubeadm, observability and operating clusters with AI agents."
+description: "Kubernetes for Platform Engineers: a 3-day hands-on CKA prep course on workloads, networking, RBAC, multitenancy, kubeadm, observability and operating clusters with AI agents."
 ---
 
 import CourseSchema from '@site/src/components/CourseSchema';

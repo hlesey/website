@@ -2,7 +2,7 @@
 sidebar_position: 3
 sidebar_label: Kubernetes for Platform Engineers
 title: "Kubernetes for Platform Engineers – CKA si agenti AI"
-description: "Kubernetes for Platform Engineers: curs practic de 3 zile pentru pregatirea CKA, despre retea, RBAC, Helm, kubeadm, observabilitate si clustere cu agenti AI."
+description: "Kubernetes for Platform Engineers: curs practic de 3 zile pentru pregatirea CKA, despre workload-uri, retea, RBAC, multitenancy, kubeadm, observabilitate si clustere cu agenti AI."
 ---
 
 import CourseSchema from '@site/src/components/CourseSchema';
@@ -31,8 +31,9 @@ Impreuna cu [Kubernetes Fundamentals](./kubernetes-fundamentals.md), te pregates
 
 ## Ce vei invata
 
-- Sa separi configuratia de aplicatie
-- Sa adaugi persistenta starii aplicatiei
+- Sa expui aplicatii cu Services si Gateway API
+- Sa rulezi agenti pe noduri si aplicatii stateful cu DaemonSets si StatefulSets
+- Sa izolezi echipele (tenants) cu namespace-uri, cote si politici
 - Sa configurezi autorizarea si controlul accesului in cluster
 - Sa scalezi automat aplicatia pe baza metricilor de calcul
 - Sa izolezi workload-urile cu Network Policies
@@ -82,6 +83,37 @@ Pentru a profita la maximum de acest curs, ar trebui sa ai:
 - Kubernetes certifications
 - Your practice environment
 
+#### Services and Load Balancing
+
+- Multi-Port Services
+- Service types
+- Cluster internal DNS
+- Gateway API
+- HTTPRoute
+
+**Lab:** Exposing your application inside and outside of a Kubernetes cluster
+
+#### ReplicaSets and Deployments
+
+- Controller Objects
+- ReplicaSets and Deployments
+- Taints and Tolerations
+- Deployment strategies
+- Autoscaling applications deployed on Kubernetes
+
+**Lab:** Deploy a real application on a Kubernetes cluster
+
+#### DaemonSets and StatefulSets
+
+- DaemonSet overview
+- DaemonSet vs Deployment
+- Manage DaemonSets
+- Stateful applications overview
+- Stateful vs Stateless applications
+- StatefulSets components
+
+**Lab:** Work with DaemonSets and deploy a stateful application on a Kubernetes cluster
+
 #### Advanced Kubernetes Networking
 
 - Networking implementation on Kubernetes
@@ -91,39 +123,6 @@ Pentru a profita la maximum de acest curs, ar trebui sa ai:
 - Isolate workloads with Network Policies
 
 **Lab:** Secure an application using network policies
-
-#### Kubernetes Configuration
-
-- ConfigMaps
-- Secrets
-- Secrets vs ConfigMaps
-- Encrypting secrets in etcd
-
-**Lab:** Use secrets and ConfigMaps to decouple configuration for an existing application deployed on a Kubernetes cluster
-
-#### DaemonSets
-
-- DaemonSet overview
-- DaemonSet vs Deployment
-- Manage DaemonSets
-
-**Lab:** Work with DaemonSets
-
-#### StatefulSets
-
-- Stateful applications overview
-- Stateful vs Stateless applications
-- StatefulSets components
-
-**Lab:** Deploy a stateful application on a Kubernetes cluster
-
-#### Jobs and CronJobs
-
-- Parallel and Non-parallel Jobs
-- Job Termination and Cleanup
-- Working with CronJobs
-
-**Lab:** Deploy short-lived applications using Jobs and CronJobs on a Kubernetes cluster
 
 ### Ziua 2
 
@@ -146,15 +145,7 @@ Pentru a profita la maximum de acest curs, ar trebui sa ai:
 
 **Lab:** Create a user with limited access on a Kubernetes namespace
 
-#### Package management with Helm
-
-- Helm Charts
-- Working with Chart Repositories
-- Helm Releases
-
-**Lab:** Deploy an application on a Kubernetes cluster using Helm
-
-#### Cluster Administration and Multitenancy
+#### Multi-Tenancy
 
 - Types of workloads
 - Managing compute allocation and quotas
